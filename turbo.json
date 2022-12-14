@@ -5,7 +5,7 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "dist/**"]
     },
-    "web#build": {
+    "app#build": {
       "dependsOn": [
         "^build",
         "$NEXT_PUBLIC_SANITY_DATASET",
