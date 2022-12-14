@@ -1,0 +1,32 @@
+[
+    {
+        "type": "SILVER",
+        "Name": "Book Addiction",
+        "Image": "book_addiction",
+        "link": "https://www.bookaddiction.com.au/"
+    },
+    {
+        "type": "SILVER",
+        "Name": "Good Reading Magazine",
+        "Image": "good_reading_magazine",
+        "link": "https://www.goodreadingmagazine.com.au/"
+    },
+    {
+        "type": "BRONZE",
+        "Name": "Selina Fenech",
+        "Image": "selina_fenech",
+        "link": "https://selinafenech.com/"
+    },
+    {
+        "type": "BRONZE",
+        "Name": "IngramSpark",
+        "Image": "ingram_spark",
+        "link": "https://selfpub.is/3K3Kwqo"
+    },
+    {
+        "type": "BRONZE",
+        "Name": "Awakened Fables",
+        "Image": "awakened_fables",
+        "link": "https://www.awakenedfables.com/"
+    }
+]

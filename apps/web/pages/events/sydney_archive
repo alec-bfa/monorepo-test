@@ -1,0 +1,864 @@
+import "yet-another-react-lightbox/styles.css";
+
+import { ReactElement, useEffect, useState } from "react";
+import Header from "@components/Header";
+import Layout from "@components/Layout";
+import { EventJsonLd, NextSeo } from "next-seo";
+import exhibitorInfo from "../../data/exhibitors.json";
+import ticketInfo from "../../data/tickets.json";
+import TicketCard, { Ticket } from "@components/TicketCard/TicketCard";
+import SubHeader from "@components/SubHeader";
+import { useMetadata } from "context/metadata";
+import Link from "next/link";
+import Image, { StaticImageData } from "next/image";
+import eventBannerImg from "../../public/img/event/event_banner.jpg";
+import childrensBannerImg from "../../public/img/event/childrens_banner.jpg";
+import cosplayBannerImg from "../../public/img/event/cosplay_banner.jpg";
+import dndBannerImg from "../../public/img/event/dnd_banner.jpg";
+import ticketsBannerImg from "../../public/img/event/tickets_banner.png";
+import generalBannerImg from "../../public/img/event/general_banner.jpg";
+import mapImg from "../../public/img/event/map.png";
+import exhibitorOneImg from "../../public/img/event/exhibitors_1.png";
+import exhibitorTwoImg from "../../public/img/event/exhibitors_2.png";
+import scheduleOneImg from "../../public/img/event/schedule_1.png";
+import scheduleTwoImg from "../../public/img/event/schedule_2.png";
+import { useMediaQuery } from "usehooks-ts";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Lightbox from "yet-another-react-lightbox";
+import { useRouter } from "next/router";
+
+const tickets: Ticket[] = ticketInfo as Ticket[];
+
+type tabs = "details" | "tickets" | "schedule" | "floorplan";
+
+const Tickets = () => {
+    const router = useRouter();
+
+    const { setMetadata } = useMetadata();
+    useEffect(() => {
+        setMetadata({
+            title: "Tickets for Book Fair Australia's Sydney Festival are available now!",
+            content: "Get your tickets",
+            useHome: false,
+        });
+    }, [setMetadata]);
+    const [currentTab, setCurrentTab] = useState<tabs>(
+        router.query.tab as tabs
+    );
+
+    useEffect(() => {
+        if (typeof window !== `undefined`) {
+            const triggerEl = document?.querySelector(
+                `#myTab button[aria-controls="#${currentTab}"]`
+            ) as HTMLElement | null;
+            if (triggerEl) {
+                triggerEl.click();
+            }
+        }
+    }, [currentTab]);
+
+    const [open, setOpen] = useState(false);
+    const [scheduleOpen, setScheduleOpen] = useState(false);
+
+    useEffect(() => {
+        setCurrentTab((router.query.tab as tabs) ?? "details");
+    }, [router.query.tab]);
+
+    const onTabClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+        var tab = (e.target as HTMLButtonElement)
+            .getAttribute("aria-controls")
+            ?.replace("#", "") as tabs;
+        if (tab !== currentTab) {
+            router.push(`/events/sydney?tab=${tab}`, undefined, {
+                shallow: true,
+            });
+        }
+    };
+
+    const isDesktop = useMediaQuery("(min-width: 1199px)");
+    return (
+        <>
+            <NextSeo
+                title="Sydney Festival"
+                description="We have a broad range of ticket types so you can make the most of your time at our inaugural Sydney Festival at Sydney Olympic Park."
+                canonical="https://bookfairaustralia.com/tickets"
+                openGraph={{
+                    title: "Sydney Festival",
+                    description:
+                        "We have a broad range of ticket types so you can make the most of your time at our inaugural Sydney Festival at Sydney Olympic Park.",
+                }}
+            />
+            <EventJsonLd
+                name="Book Fair Australia - Sydney Festival"
+                startDate="2022-11-26T09:00:00.000+10:00"
+                endDate="2022-11-27T17:00:00.000+10:00"
+                organizer={{
+                    name: "Book Fair Australia Pty Ltd",
+                    url: "https://bookfairaustralia.com/",
+                }}
+                eventStatus="https://schema.org/EventScheduled"
+                eventAttendanceMode="https://schema.org/OfflineEventAttendanceMode"
+                location={{
+                    name: "Exhibition Hall 5 - Sydney Showground",
+                    sameAs: "https://www.sydneyshowground.com.au/venues/exhibition-halls-5-6/",
+                    address: {
+                        streetAddress: "1 Showground Rd",
+                        addressLocality: "Sydney Olympic Park",
+                        addressRegion: "NSW",
+                        postalCode: "2127",
+                        addressCountry: "AU",
+                    },
+                }}
+                url="https://bookfairaustralia.com/events/sydney"
+                images={["https://bookfairaustralia.com/img/bfa-stacked.jpg"]}
+                description="Book Fair Australia is a new book festival that celebrates books of all genres as well as providing a platform for authors of both traditional and independent publishers to connect with readers."
+                offers={ticketInfo.map((ticket) => ({
+                    price: ticket.price + ticket.fees,
+                    priceCurrency: "AUD",
+                    itemCondition: "https://schema.org/NewCondition",
+                    availability: "https://schema.org/InStock",
+                    url: "https://bookfairaustralia.com/events/sydney",
+                    isFamilyFriendly: true,
+                    validFrom: "2022-07-22T00:00:00.000+10:00",
+                }))}
+                performers={exhibitorInfo.map((exhibitor) => ({
+                    name: exhibitor.name,
+                }))}
+            />
+            <div className="container">
+                <main>
+                    <Header
+                        title="Sydney Festival"
+                        subtitle="We're excited to announce our inaugural event in Sydney, Australia this year!"
+                    />
+                    <div>
+                        <p className="mx-auto text-center">
+                            <a
+                                target="_blank"
+                                href="/documents/BFA_2022_Sydney_Program.pdf"
+                            >
+                                {" "}
+                                View a PDF version of the program here
+                            </a>
+                        </p>
+                    </div>
+                    <ul className="nav nav-tabs mb-3" id="myTab" role="tablist">
+                        <li className="nav-item" role="presentation">
+                            <button
+                                className={
+                                    "nav-link " +
+                                    (currentTab == "details" ? "active" : "")
+                                }
+                                id="details-tab"
+                                type="button"
+                                role="tab"
+                                aria-controls="details"
+                                aria-selected={
+                                    currentTab == "details" ? "true" : "false"
+                                }
+                                onClick={(e) => onTabClick(e)}
+                            >
+                                Details
+                            </button>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                            <button
+                                className={
+                                    "nav-link " +
+                                    (currentTab == "tickets" ? "active" : "")
+                                }
+                                id="tickets-tab"
+                                type="button"
+                                role="tab"
+                                aria-controls="tickets"
+                                aria-selected={
+                                    currentTab == "tickets" ? "true" : "false"
+                                }
+                                onClick={(e) => onTabClick(e)}
+                            >
+                                Tickets
+                            </button>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                            <button
+                                className={
+                                    "nav-link " +
+                                    (currentTab == "schedule" ? "active" : "")
+                                }
+                                id="schedule-tab"
+                                type="button"
+                                role="tab"
+                                aria-controls="schedule"
+                                aria-selected={
+                                    currentTab == "schedule" ? "true" : "false"
+                                }
+                                onClick={(e) => onTabClick(e)}
+                            >
+                                Schedule
+                            </button>
+                        </li>
+                        <li className="nav-item" role="presentation">
+                            <button
+                                className={
+                                    "nav-link " +
+                                    (currentTab == "floorplan" ? "active" : "")
+                                }
+                                id="floorplan-tab"
+                                type="button"
+                                role="tab"
+                                aria-controls="floorplan"
+                                aria-selected={
+                                    currentTab == "floorplan" ? "true" : "false"
+                                }
+                                onClick={(e) => onTabClick(e)}
+                            >
+                                Floor Plan
+                            </button>
+                        </li>
+                    </ul>
+                    <div className="tab-content mb-3" id="myTabContent">
+                        <div
+                            className={
+                                "tab-pane fade " +
+                                (currentTab == "details" ? "show active" : "")
+                            }
+                            id="details"
+                            role="tabpanel"
+                            aria-labelledby="details-tab"
+                        >
+                            <div className="row mb-3">
+                                <div className="col-12 col-md-6">
+                                    <h3>What</h3>
+                                    <p>
+                                        Book Fair Australia presents a literary
+                                        festival that celebrates stories of all
+                                        genres. The weekend will be jam packed
+                                        with activities including:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            m﻿eet your favourite Australian
+                                            Authors;
+                                        </li>
+                                        <li>
+                                            children&apos;s corner and
+                                            activities;
+                                        </li>
+                                        <li>Dungeons & Dragons;</li>
+                                        <li>a plethora of workshops;</li>
+                                        <li>
+                                            cool stuff from local businesses;
+                                        </li>
+                                        <li>raffles for fun giveaways;</li>
+                                        <li>panels and talks; and</li>
+                                        <li>make new friends!</li>
+                                    </ul>
+                                    {/* <h3>Who</h3>
+                <p>
+                    Readers and writers of all ages, and a special
+                    activity corner for our under 12 readers
+                </p> */}
+                                    <h3>When</h3>
+                                    <p>26th - 27th November 2022, 10AM - 6PM</p>
+                                    <h3>Where</h3>
+                                    <p>
+                                        <a
+                                            target="_blank"
+                                            href="https://www.google.com/maps/dir/?api=1&destination=Exhibition+Hall+5%2CSydney+Olympic+Park&destination_place_id=ChIJYwAQBrekEmsR0V4gMt9l1G4"
+                                            rel="noreferrer"
+                                        >
+                                            Exhibition Hall 5 - 1 Showground Rd,
+                                            Sydney Olympic Park NSW 2127
+                                        </a>
+                                    </p>
+                                </div>
+                                <div className="col-12 col-md-6">
+                                    <div className="google-map">
+                                        <iframe
+                                            style={{
+                                                border: 0,
+                                                width: "100%",
+                                                minHeight: 450,
+                                            }}
+                                            loading="lazy"
+                                            allowFullScreen
+                                            src="https://www.google.com/maps/embed/v1/place?q=exhibit%20hall%205%20sydney%20showground%20sydney%20olympic%20park&key=AIzaSyDRHHsiArmTsh29eQhknTV9W55IRGMnUh0"
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xl-12">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "20vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={eventBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            We welcome traditionally and
+                                            independently published authors
+                                            alike to share their diverse range
+                                            through dedicated stalls, discussion
+                                            panels, workshops and more. A
+                                            thrilling weekend fit for any book
+                                            lover, come by with friends and
+                                            family to get your books signed and
+                                            explore a world of storytelling
+                                            right in Sydney.
+                                        </p>
+                                        <p>
+                                            The team at Book Fair Australia
+                                            commit ourselves to bringing the fun
+                                            back into a timeless hobby through
+                                            engaging with local authors,
+                                            focusing on our love for books, and
+                                            connecting readers and writers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "15vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={childrensBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            <strong>
+                                                Children&apos;s corner
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            A dedicated children&apos;s section
+                                            will include free face painting, fun
+                                            workshops and storytelling sessions.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "15vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={cosplayBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            <strong>Cosplay parades</strong>
+                                        </p>
+                                        <p>
+                                            Book Fair Australia not only
+                                            celebrates books, but we also love
+                                            pop culture and invite you to join
+                                            our Cosplay Parades during the
+                                            weekend. Take this chance to put on
+                                            your best head gear and get together
+                                            your most snazzy custom outfits to
+                                            show off your hard work.
+                                        </p>
+                                        <p>
+                                            Whether it’s your first cosplay or
+                                            your tenth one, cosplayers of all
+                                            ages can take part in our Adult
+                                            Cosplay Parade on Saturday or
+                                            Children Cosplay Parade on Sunday.
+                                            Even if you’re attending on a day
+                                            other than your designated parade,
+                                            we’d still love to see your designs.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "15vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={dndBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            <strong>
+                                                DnD 1 shot campaigns
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            Become immersed in worlds of magical
+                                            creatures and gripping adventures
+                                            through our Dungeons and Dragons
+                                            campaigns run throughout the
+                                            weekend. You can watch the action of
+                                            ongoing sessions or take a seat as a
+                                            party is about to depart on their
+                                            quest. Roleplayers of all experience
+                                            levels are encouraged to join and
+                                            bring their best voices, or choices,
+                                            to the table.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "15vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={ticketsBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            <strong>Raffle giveaway</strong>
+                                        </p>
+                                        <p>
+                                            During the weekend, we will be
+                                            running afternoon raffles each day.
+                                            Some of our exhibitors will be
+                                            donating books, swag and other cool
+                                            items for this raffle. But to tell
+                                            you too many details now would spoil
+                                            the surprise! There are multiple
+                                            prize bundles to be won every day.
+                                        </p>
+                                        <p>
+                                            80% proceeds of the raffle will be
+                                            donated to World Literacy Foundation
+                                            (Australia).
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-12">
+                                    <div
+                                        className="mb-3"
+                                        style={{
+                                            position: "relative",
+                                            width: "100%",
+                                            height: isDesktop ? "20vw" : "25vw",
+                                        }}
+                                    >
+                                        <Image
+                                            src={generalBannerImg}
+                                            alt=""
+                                            fill
+                                            sizes="100vw"
+                                            style={{
+                                                objectFit: "cover",
+                                            }}
+                                        ></Image>
+                                    </div>
+                                    <div className="mb-3">
+                                        <p>
+                                            For a detailed list of our
+                                            exhibitors, please visit our{" "}
+                                            <Link href="/exhibitors">
+                                                Exhibitors
+                                            </Link>{" "}
+                                            page.
+                                        </p>
+                                        <p>
+                                            We respectfully acknowledge that
+                                            Book Fair Australia takes place on
+                                            the traditional lands of the Wangal
+                                            people. We pay our respects to
+                                            Elders past and present.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className={
+                                "tab-pane fade " +
+                                (currentTab == "tickets" ? "show active" : "")
+                            }
+                            id="tickets"
+                            role="tabpanel"
+                            aria-labelledby="tickets-tab"
+                        >
+                            <SubHeader title="Day 1 - Saturday" />
+                            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3 text-center justify-content-center">
+                                {tickets
+                                    .filter(
+                                        (t) =>
+                                            t.days.length == 1 &&
+                                            t.days[0] == "saturday"
+                                    )
+                                    .map((ticket) => (
+                                        <div
+                                            key={
+                                                ticket.days +
+                                                ticket.type +
+                                                ticket.vouchers
+                                            }
+                                            className="col"
+                                        >
+                                            <TicketCard ticket={ticket} />
+                                        </div>
+                                    ))}
+                            </div>
+                            <SubHeader title="Day 2 - Sunday" />
+                            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3 text-center justify-content-center">
+                                {tickets
+                                    .filter(
+                                        (t) =>
+                                            t.days.length == 1 &&
+                                            t.days[0] == "sunday"
+                                    )
+                                    .map((ticket) => (
+                                        <div
+                                            key={
+                                                ticket.days +
+                                                ticket.type +
+                                                ticket.vouchers
+                                            }
+                                            className="col"
+                                        >
+                                            <TicketCard ticket={ticket} />
+                                        </div>
+                                    ))}
+                            </div>
+                            <SubHeader title="Weekend Pass" />
+                            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3 text-center justify-content-center">
+                                {tickets
+                                    .filter((t) => t.days.length > 1)
+                                    .map((ticket) => (
+                                        <div
+                                            key={
+                                                ticket.days +
+                                                ticket.type +
+                                                ticket.vouchers
+                                            }
+                                            className="d-flex col align-items-stretch"
+                                        >
+                                            <TicketCard ticket={ticket} />
+                                        </div>
+                                    ))}
+                            </div>
+
+                            <h2 className="display-6 text-center mb-4">
+                                Additional information
+                            </h2>
+                            <div className="mb-5">
+                                <ul>
+                                    <li>Tickets are non-refundable.</li>
+                                    <li>
+                                        Children older than 12 are required to
+                                        purchase an adult ticket.
+                                    </li>
+                                    <li>
+                                        Children 0-12 years and must be
+                                        accompanied by an adult with valid adult
+                                        ticket.
+                                    </li>
+                                    <li>
+                                        Day passes are only valid for the day
+                                        listed on the ticket.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div
+                            className={
+                                "tab-pane fade " +
+                                (currentTab == "schedule" ? "show active" : "")
+                            }
+                            id="schedule"
+                            role="tabpanel"
+                            aria-labelledby="schedule-tab"
+                        >
+                            <Lightbox
+                                open={scheduleOpen}
+                                close={() => setScheduleOpen(false)}
+                                slides={[scheduleOneImg, scheduleTwoImg]}
+                                plugins={[Zoom]}
+                                render={{
+                                    slide: (image, offset, rect) => {
+                                        if (
+                                            !image ||
+                                            !image.height ||
+                                            !image.width
+                                        ) {
+                                            return;
+                                        }
+                                        const width = Math.round(
+                                            Math.min(
+                                                rect.width,
+                                                (rect.height / image.height) *
+                                                    image.width
+                                            )
+                                        );
+                                        const height = Math.round(
+                                            Math.min(
+                                                rect.height,
+                                                (rect.width / image.width) *
+                                                    image.height
+                                            )
+                                        );
+
+                                        return (
+                                            <div
+                                                style={{
+                                                    position: "relative",
+                                                    width,
+                                                    height,
+                                                }}
+                                            >
+                                                <Image
+                                                    src={
+                                                        image as StaticImageData
+                                                    }
+                                                    loading="eager"
+                                                    placeholder="blur"
+                                                    alt={
+                                                        "alt" in image
+                                                            ? image.alt ?? ""
+                                                            : ""
+                                                    }
+                                                    fill
+                                                    sizes={
+                                                        typeof window !==
+                                                        "undefined"
+                                                            ? `${Math.ceil(
+                                                                  (width /
+                                                                      window.innerWidth) *
+                                                                      100
+                                                              )}vw`
+                                                            : `${width}px`
+                                                    }
+                                                />
+                                            </div>
+                                        );
+                                    },
+                                }}
+                            />
+                            <div className="row">
+                                <div className="col">
+                                    <Image
+                                        onClick={() => {
+                                            setScheduleOpen(true);
+                                        }}
+                                        src={scheduleOneImg}
+                                        alt=""
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto",
+                                        }}
+                                    ></Image>
+                                    <Image
+                                        onClick={() => {
+                                            setScheduleOpen(true);
+                                        }}
+                                        src={scheduleTwoImg}
+                                        alt=""
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto",
+                                        }}
+                                    ></Image>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className={
+                                "tab-pane fade " +
+                                (currentTab == "floorplan" ? "show active" : "")
+                            }
+                            id="floorplan"
+                            role="tabpanel"
+                            aria-labelledby="floorplan-tab"
+                        >
+                            <Lightbox
+                                open={open}
+                                close={() => setOpen(false)}
+                                slides={[mapImg]}
+                                plugins={[Zoom]}
+                                render={{
+                                    slide: (image, offset, rect) => {
+                                        if (
+                                            !image ||
+                                            !image.height ||
+                                            !image.width
+                                        ) {
+                                            return;
+                                        }
+                                        const width = Math.round(
+                                            Math.min(
+                                                rect.width,
+                                                (rect.height / image.height) *
+                                                    image.width
+                                            )
+                                        );
+                                        const height = Math.round(
+                                            Math.min(
+                                                rect.height,
+                                                (rect.width / image.width) *
+                                                    image.height
+                                            )
+                                        );
+
+                                        return (
+                                            <div
+                                                style={{
+                                                    position: "relative",
+                                                    width,
+                                                    height,
+                                                }}
+                                            >
+                                                <Image
+                                                    src={
+                                                        image as StaticImageData
+                                                    }
+                                                    loading="eager"
+                                                    placeholder="blur"
+                                                    alt={
+                                                        "alt" in image
+                                                            ? image.alt ?? ""
+                                                            : ""
+                                                    }
+                                                    fill
+                                                    sizes={
+                                                        typeof window !==
+                                                        "undefined"
+                                                            ? `${Math.ceil(
+                                                                  (width /
+                                                                      window.innerWidth) *
+                                                                      100
+                                                              )}vw`
+                                                            : `${width}px`
+                                                    }
+                                                />
+                                            </div>
+                                        );
+                                    },
+                                }}
+                            />
+                            <div className="row">
+                                <div className="col-3 col-md-2">
+                                    <button
+                                        onClick={() => {
+                                            setOpen(true);
+                                        }}
+                                        className="btn btn-link sticky-top"
+                                    >
+                                        <Image
+                                            src={mapImg}
+                                            alt=""
+                                            width={75}
+                                            height={100}
+                                        ></Image>
+                                        <p>Click to expand</p>
+                                    </button>
+                                </div>
+                                <div className="col">
+                                    {/* <table className="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">STALL #</th>
+                                        <th scope="col">NAME(S)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td
+                                            style={{
+                                                backgroundColor:
+                                                    "beige",
+                                            }}
+                                        >
+                                            IngramSpark
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table> */}
+                                    <Image
+                                        src={exhibitorOneImg}
+                                        alt=""
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto",
+                                        }}
+                                    ></Image>
+                                    <Image
+                                        src={exhibitorTwoImg}
+                                        alt=""
+                                        style={{
+                                            maxWidth: "100%",
+                                            height: "auto",
+                                        }}
+                                    ></Image>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </>
+    );
+};
+
+export default Tickets;
+
+Tickets.getLayout = function getLayout(page: ReactElement) {
+    return <Layout>{page}</Layout>;
+};

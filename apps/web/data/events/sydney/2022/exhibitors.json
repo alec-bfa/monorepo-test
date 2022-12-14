@@ -1,0 +1,2262 @@
+[
+    {
+        "name": "Shannon Kelly",
+        "bio": "Shannon Kelly is an author, editor and game designer, best known for 'Lucidity: Six-sided Nightmares' and 'Runika and the Six-sided Spellbooks'. He writes fantasy fiction and was recently published in 'Stories of Hope', a bushfire-relief anthology.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Fantasy", "Fiction", "Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.shannonkelly.com.au/",
+            "GoodReads": "https://www.goodreads.com/author/show/20569169.Shannon_Kelly",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Mila Young",
+        "bio": "Bestselling Author, Mila Young tackles everything with the zeal and bravado of the fairytale heroes she grew up reading about. She slays monsters, real and imaginary, like there's no tomorrow.",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/cSzeh7KFEszjRLHM8"
+        },
+        "socials": {
+            "Website": "https://www.milayoungbooks.com/",
+            "GoodReads": "https://www.goodreads.com/series/list/17364990.Mila_Young.html",
+            "Instagram": "http://www.instagram.com/mila_young_wicked",
+            "Facebook": "https://www.facebook.com/milayoungauthor",
+            "Twitter": "https://twitter.com/MilaYoungAuthor"
+        }
+    },
+    {
+        "name": "C. S. Cooper",
+        "bio": "C.S Cooper has always loved writing stories. When he was in year five, he started building an invented world, with its own mythology, languages, and history.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": ["Fantasy"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.cscooper.com.au/",
+            "GoodReads": "https://www.goodreads.com/author/show/18794258.C_S_Cooper",
+            "Instagram": "https://www.instagram.com/cscooper_author/",
+            "Facebook": "https://www.facebook.com/cscooperau/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Ross Kingston",
+        "bio": "Ross Kingston is an Australian author and avid fantasy fanatic living in Sydney with his partner and their dog, Andy. Reading and gaming were his passions as he grew up. Now, he gives back to the genre that brought him so much joy in the past.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.rosskingstonauthor.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/8135220.Ross_Kingston",
+            "Instagram": "https://www.instagram.com/rosskingstonauthor/",
+            "Facebook": "https://www.facebook.com/RossKingstonAuthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Clare L Rolfe",
+        "bio": "Clare Rolfe is a self published author based in NSW. Her first book dystopian romance Ten Letters to Delacroix's Tomb was released in 2016. She is currently in the throes of releasing the fantasy series Legend of Caemeris.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.clrolfe.com/",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Liv Evans",
+        "bio": "Liv Evans is an Australian-born author who delights in crafting stories just as much as she enjoys devouring them. Always one to question authority, Liv writes character-driven dystopian, science fiction, and fantasy (all with a hint of romance).",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": ["Romance", "Fantasy", "Dystopian"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/awssUqH2Hj6fA144A"
+        },
+        "socials": {
+            "Website": "http://www.sofiaaves.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/20308838.Liv_Evans",
+            "Instagram": "https://www.instagram.com/livevanswrites/",
+            "Facebook": "https://www.facebook.com/LivEvansWrites",
+            "Twitter": "https://twitter.com/LivEvansWrites"
+        }
+    },
+    {
+        "name": "Sofia Aves",
+        "bio": "USA Today Bestselling author Sofia Aves writes fast-paced suspense and steamy cowboys. She is the marketing and Events Manager for Romance Writers of Australia and loves alpacas so much she’s opening her own alpaca park. ",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Suspense", "Western"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.sofiaaves.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/20210299.Sofia_Aves",
+            "Instagram": "http://www.instagram.com/sofiaavesbooks",
+            "Facebook": "http://www.facebook.com/sophia.aves.94",
+            "Twitter": "http://www.twitter.com/avesbooks"
+        }
+    },
+    {
+        "name": "Nikki Minty",
+        "bio": "Born in Queensland, Australia, 1984, Nikki Minty rose into this world with a wild imagination. As a young girl, she would lie in bed with her family, co-telling stories about the big bad wolf and his turbulent adventures.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLScMxBTGAQ88tgVKMozPiskWiFtfxkTaDjesBQzKPK-XZGaIhA/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link"
+        },
+        "socials": {
+            "Website": "https://nikkiminty.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/21088034.Nikki_Minty",
+            "Instagram": "https://www.instagram.com/nikstamint",
+            "Facebook": "",
+            "Twitter": "https://twitter.com/NikkiMinty1"
+        }
+    },
+    {
+        "name": "G.R. Thomas",
+        "bio": "Melbourne based indie author of urban and dark gothic fantasy.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/5LXoxzQE8cakQMXu5"
+        },
+        "socials": {
+            "Website": "http://www.grthomasbooks.com/",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/grthomasauthor/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Kevin Klehr",
+        "bio": "Kevin lives with his husband, Warren, in their humble apartment (affectionately named Sabrina), in Sydney. His tales explore unrequited love in the afterlife, a man and the lover he meets in his dreams, and a dystopian society hooked on social media.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Romance", "Science Fiction", "Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSfmCiIafW19VZDHLPa7YpMnqulMlbAf53V94Qb1UsYBn-DMOw/viewform?vc=0&c=0&w=1&flr=0"
+        },
+        "socials": {
+            "Website": "https://kevinklehr.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/4298144.Kevin_Klehr",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/DramaQueensWithLoveScenes",
+            "Twitter": "https://twitter.com/kevinklehr"
+        }
+    },
+    {
+        "name": "Kristen Dovnik",
+        "bio": "Kristen loves to write. For years, she’s imagined wonderful characters and exciting storylines, just waiting to be brought to life. Now that her kids are a little older, she now has the time to write them all down.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Science Fiction", "Romance"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/EnAfSTE4ixNKax8eA"
+        },
+        "socials": {
+            "Website": "http://www.kristendovnik.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/20419472.Kristen_Dovnik",
+            "Instagram": "https://www.instagram.com/authorkristendovnik/",
+            "Facebook": "https://www.facebook.com/authorkristendovnik",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "George Green",
+        "bio": "George Green is an African-American author and motivational speaker from New York City.  He is the author of the children's books series Childhood Champions and Co-Founder of Little Global People.",
+        "primaryGenre": "Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.littleglobalpeople.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/littleglobalpeople/",
+            "Facebook": "https://www.facebook.com/LittleGlobalPeople",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Sirine Demachkie",
+        "bio": "Sirine Demachkie is a bilingual presenter and writer who has worked locally and internationally for 10 years across a diverse array of genres. She has self-published three bilingual children's books (Arabic/English), inspired by her young daughter.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Bilingual"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://sirinedemachkie.com.au/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/sirine_demachkie/",
+            "Facebook": "https://www.facebook.com/sirinebilingualpresenter",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Sandra Bennett",
+        "bio": "Sandra Bennett is the award-winning author of the exciting middle grade Adamson Adventures series, suitable for readers aged 7 -12. Hunt for exotic pirate treasure, search for a mysterious ghost and time-slip back to the land of Australian dinosaurs.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSets1OBjyscptGezEJnZllLiuG0P-bezl8cK2zpjqACvB-1zg/viewform"
+        },
+        "socials": {
+            "Website": "https://sandrabennettauthor.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/6539129.Sandra_Bennett",
+            "Instagram": "https://www.instagram.com/sandrabennettauthor/",
+            "Facebook": "https://www.facebook.com/GingerbreadAliens",
+            "Twitter": "https://twitter.com/SandraBennettAu"
+        }
+    },
+    {
+        "name": "John Hanna",
+        "bio": "John Hanna is a writer/illustrator based in Sydney. Over the last 10 years of making graphic novels, he's self-published a wide-range of original stories, from rom-com, to fantasy, action, sci-fi, cyberpunk, horror and adult stories.",
+        "primaryGenre": "Graphic Novel",
+        "otherGenres": [],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/midnightrun_comics/",
+            "Facebook": "https://www.facebook.com/midnightrunnerpublish",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Anna Ceguerra",
+        "bio": "Anna Ceguerra lives in Sydney, Australia with her beloved dog, Patchy. Having spent many years building a career in science and software development, she loves weaving futuristic themes into unique and exciting stories.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Science Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://a-whim-away.square.site/"
+        },
+        "socials": {
+            "Website": "http://annaceguerra.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/22118835.Anna_Ceguerra",
+            "Instagram": "http://instagram.com/annacegu",
+            "Facebook": "https://www.facebook.com/anna.ceguerra",
+            "Twitter": "http://twitter.com/anna_ceguerra"
+        }
+    },
+    {
+        "name": "Karen Beilharz",
+        "bio": "Karen is a writer, editor and comics creator from Sydney. Her work includes the comic anthologies \"Kinds of Blue\" and \"Monsters\", and the science fiction graphic novel \"Eternal Life\" (with Paul Wong-Pan). She is currently writing a YA fantasy novel.",
+        "primaryGenre": "Graphic Novel",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://hivemindedness.com/",
+            "GoodReads": "https://www.goodreads.com/kbeilz",
+            "Instagram": "https://www.instagram.com/hivemindedness/",
+            "Facebook": "https://www.facebook.com/karen.beilharz/",
+            "Twitter": "https://twitter.com/kbeilz/"
+        }
+    },
+    {
+        "name": "Steven Dutch & Chris Masterton",
+        "bio": "Steven Dutch and Chris Masterton are the pen names for Steven Dutch and Chris Masterton. They write science fiction and short stories.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.historyofsol.com/",
+            "GoodReads": "https://www.goodreads.com/book/show/57343556-ouroboros",
+            "Instagram": "https://www.instagram.com/historyofsol/",
+            "Facebook": "https://www.facebook.com/history.of.sol",
+            "Twitter": "https://twitter.com/HistoryofSol"
+        }
+    },
+    {
+        "name": "Fleur & Fable",
+        "bio": "Fleur & Fable is an Australian based company specialising in bookplates inspired by classic storybook illustration mixed with beautiful design. We value tradition and history, high quality production and offering an affordable range.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://fleurandfable.com.au/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/fleurandfable.au/",
+            "Facebook": "https://www.facebook.com/fleurandfable.au",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Selina A. Fenech",
+        "bio": "Selina A. Fenech writes quirky, positive, and powerful tales where love always wins. With laugh out loud moments, epic danger, twists, and unique magical worlds, her stories are perfect for a reader looking for something different.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Young Adult"],
+        "adultContent": false,
+        "sponsorType": "bronze",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.selinafenech.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/21456470.Selina_A_Fenech",
+            "Instagram": "https://instagram.com/selinafenech/",
+            "Facebook": "https://www.facebook.com/selinafenechart",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Book Addiction",
+        "bio": "Book Addiction is an Australian-based book subscription box service offering new release paperbacks and goodies to our fellow book addicts.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "silver",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.bookaddiction.com.au",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/bookaddictionau/",
+            "Facebook": "https://www.facebook.com/bookaddictionaustralia",
+            "Twitter": "https://twitter.com/BookAddictionAU"
+        }
+    },
+    {
+        "name": "Handmade by Rimabella",
+        "bio": "If you've ever had to look everywhere for the perfect gift for a picky person, you'll understand the significance of a handmade gift being personal, I make unique handmade gifts for that unique person.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.facebook.com/handmade.by.rimabella/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/handmade_by_rimabella/",
+            "Facebook": "https://www.facebook.com/handmade.by.rimabella/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Charlie and Fox",
+        "bio": "Unique and exclusive fabric bookish accessories to protect your treasured reads",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.charlieandfox.com.au/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/charlieandfoxco/",
+            "Facebook": "https://www.facebook.com/charlieandfoxco",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Avalon by Nature",
+        "bio": "Avalon by Nature is an independent book and gift shop specialising in Australian spiritual books and oracle decks. ",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.avalonbynature.com.au/",
+            "GoodReads": "",
+            "Instagram": "http://instagram.com/avalonbynature",
+            "Facebook": "http://facebook.com/avalonbynature",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Cockatoo Comics",
+        "bio": "Cockatoo Comics is an online comic book store specialising in indie, locally produced, second hand, and comics for kids. Owned and run by Siobhan Coombs and Annie Huang, Cockatoo Comics is here to know, love, and share comics!",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.cockatoocomics.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/cockatoocomics/",
+            "Facebook": "",
+            "Twitter": "https://twitter.com/cockatoocomics"
+        }
+    },
+    {
+        "name": "Pens and Needles",
+        "bio": "We make and draw cute and geeky things! ",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://pensandneedlesau.wixsite.com/pensandneedlesau",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/pensandneedlesau/",
+            "Facebook": "https://www.facebook.com/PensAndNeedlesAU/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Vivienne Lee Fraser",
+        "bio": "Vivienne Lee Fraser is an Australian YA Fantasy writer, who writes stories she would enjoy reading. Her books range from traditional, to portal, to paranormal fantasy. They all have a touch of magic, strong females, quirky males and the occasional sentient animal.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/1opEC8_qr9MofqkPt1TA79IsIftbRJ1k9ameG6keREIc/edit"
+        },
+        "socials": {
+            "Website": "http://viviennelfraser.com.au/",
+            "GoodReads": "https://www.goodreads.com/author/show/17824639.Vivienne_Lee_Fraser",
+            "Instagram": "https://www.instagram.com/vivienneleefraser/",
+            "Facebook": "https://www.facebook.com/vivienneleefraser",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Lilliana Rose",
+        "bio": "Lilliana is a bestselling author, who writes  contemporary, and paranormal romance and fantasy middle grade. She enjoys helping characters overcome problems, or issues, and the misunderstandings that often plague relationships. ",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Childrens", "Young Adult"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/1jOsz3NXsbkeybCf5wnXoJfKmeDUp-aaeHzX-ptteRAE/viewform?edit_requested=true"
+        },
+        "socials": {
+            "Website": "",
+            "GoodReads": "https://www.goodreads.com/author/list/6567838.Lilliana_Rose",
+            "Instagram": "https://www.instagram.com/lillianarose11/",
+            "Facebook": "https://www.facebook.com/lillianarose8/",
+            "Twitter": "https://twitter.com/lillianarose2"
+        }
+    },
+    {
+        "name": "Tanya Nellestein",
+        "bio": "Tanya Nellestein is an award-winning journalist and ARRA-nominated author of gut-churning Viking romance and romantic suspense that always includes good sex and a happily ever after - eventually. ",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://tinyurl.com/BFATanya"
+        },
+        "socials": {
+            "Website": "https://www.tanyanellestein.com",
+            "GoodReads": "https://www.goodreads.com/author/show/20748068.Tanya_Nellestein",
+            "Instagram": "https://www.instagram.com/tanyanellestein",
+            "Facebook": "https://www.facebook.com/ruinromanceredemption",
+            "Twitter": "https://www.twitter.com/tanyanellestein"
+        }
+    },
+    {
+        "name": "Aimee J Edwards",
+        "bio": "Aimee J Edwards is the debut author of Limitations. Aimee is an emerging writer with a love for the written word. With influences from Shakespeare to John Green, Aimee is passionate about telling stories that focus on real issues felt by real people.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["New Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.aimeejedwards.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/21345869.Aimee_J_Edwards",
+            "Instagram": "https://www.instagram.com/aimeejean1904/?hl=en",
+            "Facebook": "https://facebook.com/aimeejedwards19/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Karen Martin",
+        "bio": "Karen Martin is an acclaimed independent writer and theatre director whose work has toured nationally and internationally.  Her debut Dancing the Labyrinth was initially translated into Greek and published in 2021. ",
+        "primaryGenre": "Historical Fiction",
+        "otherGenres": ["Fantasy"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://kazjoypress.com",
+            "GoodReads": "https://www.goodreads.com/author/show/21635074.Karen_Martin",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/KazjoyMartin",
+            "Twitter": "https://twitter.com/karenjoy8"
+        }
+    },
+    {
+        "name": "JP McDonald",
+        "bio": "JP lives in Western Sydney with his family. Before inking stories, JP focused on writing songs for adults and children alike. His debut book is The Invisible Tether, a fast-paced, descriptive sci fi adventure novel.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.jpmcdonald.com.au/",
+            "GoodReads": "https://www.goodreads.com/book/show/59444029-the-invisible-tether?ac=1&from_search=true&qid=J9Y35gwPEi&rank=1#other_reviews",
+            "Instagram": "http://www.instagram.com/jpmcdonaldwrites",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Serene Conneeley",
+        "bio": "Serene Conneeley is the author of the Into the Mists and Into the Storm Trilogies, original faery tales The Swan Maiden and The Snow Queen’s Daughter, non-fiction books Faery Magic, Mermaid Magic and Witchy Magic, and two magical oracle card decks.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Non-Fiction", "Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://sereneconneeley.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/sereneconneeley/",
+            "Facebook": "https://www.facebook.com/sereneconneeley/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "A. A. Warne",
+        "bio": "Amanda lives a life full of fantasy, so it’s no wonder she became a writer. Mother to three children and two seriously naughty dogs, she currently resides at the bottom of the Blue Mountains.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://aawarne.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/19055682.A_A_Warne",
+            "Instagram": "http://instagram.com/aawarne",
+            "Facebook": "http://facebook.com/aawarne",
+            "Twitter": "http://twitter.com/aawarne"
+        }
+    },
+    {
+        "name": "Nicole Flockton",
+        "bio": "USA Today Bestselling author Nicole Flockton writes contemporary romances that sparkle and seduce you one kiss at a time. Nicole likes nothing better than taking characters and creating unique situations where they fight to find their true love.",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/PxDyDchhX4S6em2A9"
+        },
+        "socials": {
+            "Website": "https://www.nicoleflockton.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/6479388.Nicole_Flockton",
+            "Instagram": "https://www.instagram.com/nicoleflockton/",
+            "Facebook": "https://www.facebook.com/NicoleFlockton",
+            "Twitter": "https://twitter.com/NicoleFlockton"
+        }
+    },
+    {
+        "name": "Claudia Harrison",
+        "bio": "Claudette Harrison is a proud Lebanese/Australian author. She recently self-published 2 books in the series she's writing. She is a mum of five & a Bank Manager. After a very convincing argument with her beautiful husband, thie city girl turned country, and just loves it!",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Fiction", "Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSfdrCRaWYNpoqS-QepBn-7oDzkTXo-g3eGrq7ZfbQl1jqny5Q/viewform?vc=0&c=0&w=1&flr=0"
+        },
+        "socials": {
+            "Website": "https://www.amazon.com/kindle-dbs/entity/author/B08Z241CGM",
+            "GoodReads": "https://www.goodreads.com/author/show/21163420.Claudia_Harrison",
+            "Instagram": "https://www.instagram.com/claudette.harrison.33/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Michelle Montebello",
+        "bio": "Michelle Montebello is the internationally bestselling, award-winning author of contemporary and historical fiction. When she's not writing, she enjoys spending time with her young family, playing tennis, reading and travelling.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Historical Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/1RUZ_svY0viDQBTvSn2-nn-Z1DVnaijkjG0O4oal0kkw/edit"
+        },
+        "socials": {
+            "Website": "http://michellemontebello.com.au/",
+            "GoodReads": "https://www.goodreads.com/author/show/17208833.Michelle_Montebello",
+            "Instagram": "http://www.instagram.com/michellemontebelloauthor",
+            "Facebook": "",
+            "Twitter": "https://twitter.com/Michelle_Monteb"
+        }
+    },
+    {
+        "name": "Tamara Haque",
+        "bio": "Tamara Haque is a strategist by day and writer by night. Bangladeshi by birth with roots in Saudi Arabia, Malaysia and Australia, Tamara loved her multi-cultural upbringing. Tamara writes to centre Muslim voices in childen's lit and decolonise minds.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Non-Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.tamarahaque.com.au",
+            "GoodReads": "https://www.goodreads.com/author/show/21528155.Tamara_Haque",
+            "Instagram": "https://instagram.com/mightymuslimheroes",
+            "Facebook": "https://facebook.com/mightymuslimheroes",
+            "Twitter": "http://twitter.com/Tamarahq_writes"
+        }
+    },
+    {
+        "name": "Tjalara Draper",
+        "bio": "Hervey Bay based author who's turned daydreaming into a profession, Tjalara Draper is a paranormal/urban fantasy author currently in the midst of completing her first book series about shape-shifters with a twist. ",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/GbTva4vBGkoUuxxXA"
+        },
+        "socials": {
+            "Website": "https://www.tjalaradraper.com",
+            "GoodReads": "https://www.goodreads.com/author/show/19586729.Tjalara_Draper",
+            "Instagram": "https://www.instagram.com/tjalaradraper_author/",
+            "Facebook": "https://www.facebook.com/TjalaraDraperAuthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "DJ Elton",
+        "bio": "DJ Elton is a speculative fiction writer living in the Blue Mountains. Her works of poetry, short stories and microfiction have been published with Clarendon House Publishing, Black Hare Press, Black Ink Fiction, Sweetycat Press and more. ",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Childrens", "Fiction", "Science Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://djeltonwrites.blog",
+            "GoodReads": "https://www.goodreads.com/goodreadscomdjeltonwrites",
+            "Instagram": "https://www.instagram.com/djeltonwriter/",
+            "Facebook": "https://www.facebook.com/djeltonwrites/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Chris Allen",
+        "bio": "Chris Allen has had an exciting & diverse career, including Army officer, aid worker & government senior executive, and he is the former Sheriff of New South Wales. He now lives on the NSW south coast writing, riding his motorbike & playing drums.",
+        "primaryGenre": "Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://chrisallenauthor.com/",
+            "GoodReads": "https://www.goodreads.com/chrisallenauthor",
+            "Instagram": "https://www.instagram.com/chrisallenauthor/",
+            "Facebook": "https://www.facebook.com/ChrisAllenAuthor",
+            "Twitter": "https://twitter.com/ChrisAllenNTRPD"
+        }
+    },
+    {
+        "name": "Renny Roccon",
+        "bio": "Renny Roccon is a Sydney based artist/designer and has recently delved in writing children's books which are self-published.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.amazon.com.au/Renny-Roccon/e/B0986PS8W2/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/its.ok.to.be.me_storybook/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Jacinta Froud",
+        "bio": "Jacinta Froud has been writing stories and poems since she was knee high to a grasshopper. That’s old people speak for kind of tiny. She is a teacher and a Mum to three children. Her debut picture book, Jingle Belly is published by Larrikin House.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.jacintafroud.com/",
+            "GoodReads": "",
+            "Instagram": "http://www.instagram.com/jacintafroud",
+            "Facebook": "http://www.facebook.com/jacintafroudwrites",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Artelle Lenthall",
+        "bio": "Artelle Lenthall author of Picture Book, Star, is a mother & Primary School teacher, who not surprisingly developed a love of writing Picture Books, due to their profound ability to build relationships & impact the lives of children & adults alike.  ",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.journeygirlontheroadtopublication.com",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/artelle.lenthall",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Sarah Speedie",
+        "bio": "Sarah Speedie’s first picture book ‘Mozzies Vs Flies’ was released in November 2021 and has just been shortlisted in The Speech Pathology Australia Book of the Year Awards 2022. Her second book Meowster Chef was released in July 2022. ",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.sarahspeedie.com",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/sarahspeedie_author",
+            "Facebook": "https://www.facebook.com/sarahspeedieauthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Jacqueline de Rose-Ahern",
+        "bio": "Jacqueline is an international award-winning author and creative coach. She has appeared at various literary events including the Canberra Writers Festival and NSW Kids & YA Festival. ",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.derose-ahernstories.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/deroseahernstories/?hl=en",
+            "Facebook": "https://facebook.com/deroseahernstories/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Steven Clegg & Joshua Adams",
+        "bio": "Introducing co-authors, Steven Clegg and Joshua Adams. Steven hails from Cape Town, South Africa and Joshua comes from Colorado, USA. They are excited to present to you their new book, The Adventures of Arnie and the Space Rock: Saving the Forest.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://gtgfmedia.com",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/GTGFmedia",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "KE Fraser",
+        "bio": "K.E. Fraser is an Indie Author from South Australia. She has always loved to write stories and is constantly under attack from plot bunnies. Her books are a little weird and wacky, and hopefully as fun to read as they are to write.",
+        "primaryGenre": "Fiction",
+        "otherGenres": ["Humour", "Cozy", "Mystery"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/uuCggX5Arhg9m1WT6"
+        },
+        "socials": {
+            "Website": "",
+            "GoodReads": "https://www.goodreads.com/kefraser",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/KEFraserindieauthor",
+            "Twitter": "https://twitter.com/kefraser_author"
+        }
+    },
+    {
+        "name": "Emma Hay",
+        "bio": "After working as a childrens book illustrator on 10 published and in production titles,  Emma Hay has ventured out into the world of writing and published her first book as author/illustrator, 'Three Little Dewdrops.'",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/emmahayillustrator/",
+            "Facebook": "https://www.facebook.com/emmahayillustrator",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Andrew Tribe",
+        "bio": "Teacher by day, comic maker by night. Andrew has been making comics since primary school. He finally self published his own work in 2013, an all ages comic, The Adventurers and he is currently writing The Electrifying Bolt and Dynah-Mite Ace Detective.",
+        "primaryGenre": "Graphic Novel",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.boltcomics.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/boltcomics/",
+            "Facebook": "http://www.facebook.com/boltcomics/",
+            "Twitter": "http://www.twitter.com/boltcomics/"
+        }
+    },
+    {
+        "name": "Karen Hendriks",
+        "bio": "Karen creates quirky and heartfelt picture book stories. She hopes her stories empower kids and makes them curious. Karen's books include Go Away, Foxy Foxy, Feathers and Home. Feathers was shortlisted in the international Rubery Book Awards.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.karenhendriks.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/20156318.Karen_Hendriks",
+            "Instagram": "https://www.instagram.com/karen_hendriks_author/?hl=en",
+            "Facebook": "https://www.facebook.com/karen.hendriks.52/",
+            "Twitter": "https://twitter.com/karenhendriks1"
+        }
+    },
+    {
+        "name": "K.M.Martinez",
+        "bio": "A poet with a penchant for writing deep, striking poems about trauma, survival, friendship, love and self-awareness.",
+        "primaryGenre": "Young Adult",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.poetkmmartinez.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/author_kmmartinez/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Chris Foster",
+        "bio": "Chris Foster is an international award winning author of poetry, as well as all kinds of speculative fiction, including fantasy, new weird and dystopian. He has eight published books. He also loves painting, fishing, 3d printing and rolling a d20.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.chrisfosterwrites.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/7302639.Chris_Foster",
+            "Instagram": "https://www.instagram.com/chrisfosterwrites/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Kimiko Crochet",
+        "bio": "Crochet designer/artist based in country NSW. Turning a hobby and passion for books and pop culture into a small business.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.etsy.com/au/shop/KimikoCrochet",
+            "GoodReads": "",
+            "Instagram": "https://instagram.com/kimiko_crochet?igshid=YmMyMTA2M2Y=",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Wicked Tales",
+        "bio": "Wicked Tales & The Crystal Geek bring magic into your everyday life with fantasy inspired crystal candles, clay jewellery, charms, trinket dishes and more. Everything is handmade and unique. ",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.etsy.com/au/shop/WickedTalesShop?ref=simple-shop-header-name&listing_id=1256815333",
+            "GoodReads": "",
+            "Instagram": "https://instagram.com/wicked.tales?igshid=YmMyMTA2M2Y=",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Lucie Mammone",
+        "bio": "Illustrator of foxes, fantasy and pop culture. Lucie's Aussie made wood bookmarks feature her whimsical artwork, and make gorgeous keepsakes for all bookish folk. Check out her first, fantastical fox books, fine art prints and other illustrated goodies.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.luciemade.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/luciemdraws/",
+            "Facebook": "https://www.facebook.com/LucieMammoneIllustration/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Sumi Threads",
+        "bio": "Sumi Threads is an artist-owned and operated apparel brand based in Sydney, Australia. Established in 2018, we specialise in self-designed Japanese-inspired casual streetwear. Born from the artistic history of Asian cultures.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://sumithreads.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/sumithreads/",
+            "Facebook": "https://www.facebook.com/sumithreads",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Saint's Soaps",
+        "bio": "Saint's Soaps sells artisan soaps inspired by fact & fiction. Made using traditional cold process soap making methods, each soap is unique and handmade.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.saints-soaps.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/saints.soaps/",
+            "Facebook": "https://www.facebook.com/saintssoaps/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Australian Fairy Tale Society",
+        "bio": "The Australian Fairy Tale Society is a national in-person and online society that explores fairy tales through an Australian perspective, and aims to stimulate the creation of Australian interpretations: academic, creative, and performative.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://australianfairytalesociety.org/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/australianfairytalesociety/",
+            "Facebook": "https://www.facebook.com/austfairytales",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Ally Barnes & Debbie Ann",
+        "bio": "Ally Barnes and Debbie Ann have turned their long term friendship and love of reading into the biggest adventure of their lives.",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/Go3nDWDtNAZm2R7R9"
+        },
+        "socials": {
+            "Website": "https://allybarnesdebbiean.wixsite.com/authorsallyanddebbie",
+            "GoodReads": "https://www.goodreads.com/AllyBarnesDebbieAnn",
+            "Instagram": "https://www.instagram.com/allybarnesdebbieann/",
+            "Facebook": "https://www.facebook.com/AuthorsAllyBarnesandDebbieAnn",
+            "Twitter": "https://www.twitter.com/AllyandDebbie17"
+        }
+    },
+    {
+        "name": "Georgia Mabarrack",
+        "bio": "Georgia Mabarrack is a twenty year old journalism student from South Australia, who has been writing longer than she can recall. This is Georgia’s debut collection of poetry, written on her bedroom floor, trying to mend her own heart, and now, yours.",
+        "primaryGenre": "Poetry",
+        "otherGenres": ["Non-Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.shawlinepublishing.com.au/our-titles/non-fiction/display/219-wisteria",
+            "GoodReads": "https://www.goodreads.com/book/show/61389962-wisteria",
+            "Instagram": "https://instagram.com/georgiamabarrack",
+            "Facebook": "https://www.facebook.com/georgia.mabarrack",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Matt J Pike",
+        "bio": "Award-winning indie author of Aussie-voiced Sci-Fi comedy, Zombie and Dystopian fiction.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": ["Young Adult"],
+        "adultContent": true,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/1M8In23Yl9gTu8ee77QQZCpelWtH2jBM9a-bIDI8H1Cc/edit"
+        },
+        "socials": {
+            "Website": "http://mattpike.co/",
+            "GoodReads": "https://www.goodreads.com/author/show/7060791.Matt_J_Pike",
+            "Instagram": "https://www.instagram.com/matt_j_pike/",
+            "Facebook": "https://www.facebook.com/MattJPikeAuthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Farah Yaghmour Elsaket",
+        "bio": "An education support worker and mother of four girls, Farah has recently self published a book about finding the beauty in diversity, places and people you least expect. Douha and the mystery of the oak tree.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/farahelsaket/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Danielle Hughes",
+        "bio": "Danielle lives with her husband, four young children and two cats in the south east suburbs of Melbourne. Her favourite books to write are fantasy, adventure and supernatural stories for middle-grade and young adult readers.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Childrens"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.fourmoonspublishing.com/",
+            "GoodReads": "https://www.goodreads.com/author/show/21810577.Danielle_Hughes",
+            "Instagram": "https://www.instagram.com/four_moons_publishing/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100070619324588",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Alyce Caswell",
+        "bio": "Alyce Caswell is a self-published author who loves love and drinks more tea than is considered wise. Her books include the Galactic Pantheon family saga and the pandemic romance, Love and Lockdown.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": ["Fantasy", "Romance"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://www.alycecaswell.com",
+            "GoodReads": "https://www.goodreads.com/author/show/17154204.Alyce_Caswell",
+            "Instagram": "https://www.instagram.com/alycecaswell/",
+            "Facebook": "",
+            "Twitter": "https://twitter.com/AlyceCaswell"
+        }
+    },
+    {
+        "name": "Robert Luxford",
+        "bio": "Stage and Screen writer, Robert's works include Greed, a multi-award winning film now available through streaming services in the U.S.A., and Nuns, a critically acclaimed play produced in 3 Countries. He has also produced a number of Graphic Novel series.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.blindpenguinproductions.com/",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Carol Baauw",
+        "bio": "Carol is a trauma social worker. The idea for her books came out of group work with clients to assist them through fantasy to identity their fear of ghosts and how they got them, and discuss through use of metaphors to determine where they were on their Journey.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://journeyoftheseedscounseling.com/",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Kate Bonham",
+        "bio": "Kate grew up in Western Sydney, in Australia, and remains there today. She has always loved the written word, being influenced by the likes of Edgar Allan Poe, JR Ward and Anne Rice, she ventured into writing at a young age.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/fsrDLKngq332UcMG8"
+        },
+        "socials": {
+            "Website": "http://authorkatebonham.com/",
+            "GoodReads": "",
+            "Instagram": "http://www.instagram.com/kbonhamauthor",
+            "Facebook": "http://www.facebook.com/AuthorKateBonham",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Gillian Wells",
+        "bio": "Gillian lives in the beautiful Scenic Rim in Queensland. Two of her books have been nominated for the Miles Franklin Literary Award. She has had five books published and there are many more to come over the coming months.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Childrens"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://form.jotform.com/222650372557861"
+        },
+        "socials": {
+            "Website": "http://gillianwellsauthor.com.au/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/gillwellswriter/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100076243989958",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Paul Rushworth-Brown",
+        "bio": "Paul was born in England in 1962, educated at Charles Sturt University, and became a writer in 2015. Excitement, romance, mystery and historically accurate, his novels paint a picture of people and a time which is almost lost to us.",
+        "primaryGenre": "Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/j8Qh5TkQxWsG1SEC8"
+        },
+        "socials": {
+            "Website": "https://www.paulrushworthbrownskulduggerywinterofred.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/paulbrown630/",
+            "Facebook": "https://www.facebook.com/authorpaulrushworthbrown",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Jess McFarlane",
+        "bio": "Jess McFarlane wrote her first novel when she was 14. She currently lives on Awabakal Country with her partner & their German Shepherd. When Jess isn't writing, she enjoys playing video games, cooking & advocating for chronic illness awareness.",
+        "primaryGenre": "Fiction",
+        "otherGenres": ["Historical Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/jessmcfarlaneauthor/",
+            "Facebook": "https://www.facebook.com/jessmcauthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Anita Maxwell",
+        "bio": "Anita Maxwell is a reverse harem and menage romance author. She believes that love is love and that it can come in many forms. Decaf coffee (she knows!), chocolate, and red wine are the way to her heart. ",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "",
+            "GoodReads": "https://www.goodreads.com/author/show/16675096.Anita_Maxwell",
+            "Instagram": "https://www.instagram.com/anitamaxwellauthor/",
+            "Facebook": "https://www.facebook.com/anita.maxwell.169/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "D. Henry",
+        "bio": "D. Henry is a Melbourne-based author. He loves getting lost in creating new worlds full of magic and wonder, and has taken that love into writing YA Fantasy novels.",
+        "primaryGenre": "Young Adult",
+        "otherGenres": ["Fantasy"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "https://dhenry89.wixsite.com/willowispstudios",
+            "GoodReads": "https://www.goodreads.com/author/show/6593836.Dean_Henry",
+            "Instagram": "https://www.instagram.com/willowispstudios",
+            "Facebook": "",
+            "Twitter": "https://www.twitter.com/willowispstudio"
+        }
+    },
+    {
+        "name": "Emmie Hamilton",
+        "bio": "Emmie Hamilton is an award winning fantasy author, freelance editor, and amateur candle maker. When she isn't busy writing or editing fantastical worlds, she can be found in secondhand bookshops and traveling the world.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/JFjyJRnvmKfshES66"
+        },
+        "socials": {
+            "Website": "https://www.emmiehamilton.com",
+            "GoodReads": "https://www.goodreads.com/author/show/21198984.Emmie_Hamilton",
+            "Instagram": "https://www.instagram.com/authoremmiehamilton",
+            "Facebook": "",
+            "Twitter": "https://www.twitter.com/authoremmieham"
+        }
+    },
+    {
+        "name": "Adriana Carboni",
+        "bio": "Adriana was born, and grew up in Sydney (in the year that won't be revealed). She joined Westpac bank and spent a good part of her career there. She wrote this book to share the excitement and spirit of long-distance train travel in Australia.",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.adrianacarboni.com.au/",
+            "GoodReads": "",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Helen Lewis",
+        "bio": "Helen is the author of Flora & Rainbow Hopping Bug and Crackle & Rustle (soon-to-be-published). She is an Early Childhood Educator by profession and has spent hundreds of hours bringing stories to life for children of all ages.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "Website": "http://www.rainbowhoppingbug.com/",
+            "GoodReads": "https://www.goodreads.com/en/book/show/55199070-flora-and-rainbow-hopping-bug",
+            "Instagram": "https://www.instagram.com/rainbow_hopping_bug/",
+            "Facebook": "https://www.facebook.com/rainbowhoppingbug/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Two Birds Audio",
+        "bio": "Two Birds Audio is an Australian audiobook production company with international experience. They make audiobook production easy for authors with a personal, hands-on approach, guiding authors through the process from go to whoa.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.twobirdsaudio.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/twobirdsaudio/",
+            "Facebook": "https://www.facebook.com/twobirdsaudio",
+            "Twitter": "https://twitter.com/twobirdsaudio"
+        }
+    },
+    {
+        "name": "Tiffany House Australia",
+        "bio": "At Tiffany House Australia, the pen is mighty and words change lives. A new publishing house based in Sydney. With a posture of fun and excellence, we foster influential thinking and great ideas based on truth and openness.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.tiffanyhouseaustralia.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/tiffanyhouseaustralia/",
+            "Facebook": "https://www.facebook.com/TiffanyHouseAustralia",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "The RABbit Warren Creative",
+        "bio": "Inspiration drawn from love of words, books and pop culture come a range of handmade goods for your books and for your home.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://etsy.me/2WScz8h",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/therabbitwarrencreative/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Granny Fi's Toy Cupboard",
+        "bio": "Granny Fi’s Toy Cupboard is a family run toy and bookshop based in Armidale. They take great pride in making beautiful toys, from dragons to dolls, bears and other fantasy creatures. They love to showcase the talent in their region.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "https://www.grannyfi.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/grannyfi_toycupboard/",
+            "Facebook": "https://www.facebook.com/GrannyFisToyCupboard",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Amber Jakeman",
+        "bio": "With readers in more than 50 countries, feel-good fiction author Amber Jakeman honed her writing skills as a journalist. and daydreamer. Addicted to uplifting endings, she warmly acknowledges Australia’s First Nations People, our first storytellers.",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/18749840.Amber_Jakeman",
+            "Website": "http://www.amberjakeman.com/",
+            "Instagram": "https://www.instagram.com/jakemanamber/",
+            "Facebook": "https://www.facebook.com/AmberJakemanAuthor",
+            "Twitter": "https://twitter.com/AmberJakeman"
+        }
+    },
+    {
+        "name": "Dia Thomo",
+        "bio": "A life-changing phone call to work on a popular island resort, followed by an extended fishing trip to the Great Barrier Barrier Reef. A kind of lifestyle that many people dream about, this first time author turned it into a career!",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/book/show/59722248-passport-to-paradise",
+            "Website": "",
+            "Instagram": "https://www.instagram.com/Broadwater_Soul/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Andrew Hood",
+        "bio": "Andrew Hood was born in Victoria, Australia in 1973 and is an Author, Blogger, Salesman and Family man. His Break out novel “The Man Who Corrupted Heaven” was nominated for the 2022 Miles Franklin Literary Award.",
+        "primaryGenre": "Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/book/show/51099864-the-man-who-corrupted-heaven",
+            "Website": "http://www.andrewhoodauthor.com/",
+            "Instagram": "https://www.instagram.com/andrew_hoodtwtp/",
+            "Facebook": "https://www.facebook.com/andrewhoodauthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Chrissy Hampton",
+        "bio": "Chrissy Hampton loves all things spiritual, especially astrology, oracle and tarot cards, and of course, writing. Her two most enjoyable roles in life are being married to Richard and being a grandmother, of 8. She currently resides in Medowie, NSW.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/7000814.Chrissy_Hampton",
+            "Website": "https://storiesstarsandcards.com/",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/storiesstarsandcards/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Emma Lombard",
+        "bio": "Before she started writing historical fiction, Emma Lombard was a freelance editor in the corporate world, which was definitely not half as exciting as writing about fearless seafarers—even though in real life Emma gets disastrously sea sick!",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Historical Fiction", "Women's Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/21214987.Emma_Lombard?from_search=true&from_srp=true",
+            "Website": "https://www.emmalombardauthor.com/",
+            "Instagram": "https://www.instagram.com/emmalombardauthor/",
+            "Facebook": "https://www.facebook.com/EmmaLombardAuthor",
+            "Twitter": "https://twitter.com/LombardEmma"
+        }
+    },
+    {
+        "name": "Kim Rigby",
+        "bio": "After a career in the Royal Australian Navy, Kim pursued her childhood dream of writing. The Black Fire Chronicles is a MG/YA series that adults love too. Talking animals, time stepping, history and mystery, welcome to the #bfc universe!",
+        "primaryGenre": "Young Adult",
+        "otherGenres": ["Childrens"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/14690106.Kim_Rigby",
+            "Website": "https://kimrigby.com/",
+            "Instagram": "https://www.instagram.com/kimrigby27/",
+            "Facebook": "https://www.facebook.com/kimrigbywriter",
+            "Twitter": "https://twitter.com/kimrigby27"
+        }
+    },
+    {
+        "name": "Kirsty Inic",
+        "bio": "Kirsty Inic is an Australian YA Fantasy author. She is a lover of tea, books, and all things magical. A budding writer for many years, she fulfilled her publishing dream with her debut novel The Witch of Ellesmere.",
+        "primaryGenre": "Young Adult",
+        "otherGenres": ["Fantasy"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLScZTIvqSG7rpkCNoo-S5KnAlwNsqhjzmaSQD791mGEFsXKeSg/viewform?usp=sf_link"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/kirstyinicauthor",
+            "Website": "https://kirstyinic.wixsite.com/website",
+            "Instagram": "https://www.Instagram.com/kirsty_inic",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Lovina J. Paje",
+        "bio": "Lovina J. Paje is a self-published Filipino author, who released her debut poetry book, 'I Have Something to Say' in June of 2021. She studies a Bachelor of Communications, with a double major in Social Political Sciences and Writing and Publishing.",
+        "primaryGenre": "Fiction",
+        "otherGenres": ["Poetry"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/rfP8gZcp6JEu6N579"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/book/show/59023425-i-have-something-to-say",
+            "Website": "",
+            "Instagram": "https://www.instagram.com/jelikapaje/",
+            "Facebook": "https://www.facebook.com/lovinajpaje",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Susea Spray",
+        "bio": "Award winning author of A Big Blue Boat, retired teacher Susea Spray cruises the world in an old sailing yacht. She writes realistic children’s picture books about a boat, a girl, and the sea.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/ZH7Npef5pmsV9R8LA"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/22118831.Susea_Spray",
+            "Website": "https://suseaspray.com/",
+            "Instagram": "https://www.instagram.com/suseaspray/?hl=en",
+            "Facebook": "https://www.facebook.com/SuseaSpray",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "L. J. Kendall",
+        "bio": "L. J. Kendall failed to drown on five separate occasions on Sydney’s northern beaches. He worked in the IT R&D field while extremely happily married for 30 years to an adventurous mediaeval scholar 22 years his senior until her death in 2014.",
+        "primaryGenre": "Science Fiction",
+        "otherGenres": ["Fantasy"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSevODYrOHSd05Zdxd98M2OufK1uc7-bcb6FfrqctVZLRJgH2A/viewform"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/list/14771366.L_J_Kendall",
+            "Website": "https://AToeInTheOceanOfBooks.com/",
+            "Instagram": "https://www.instagram.com/ljkendall_author/",
+            "Facebook": "https://www.facebook.com/LJKendall.author/",
+            "Twitter": "https://twitter.com/LukeJKendall"
+        }
+    },
+    {
+        "name": "Clyve Rose",
+        "bio": "Clyve Rose is an award-winning Regency romance author. Her books and novellas have topped bestseller lists locally and in the US, where her steamy scenes have generated a following among readers of historical romance fiction.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://clyverose.com/",
+            "Instagram": "https://www.instagram.com/clyverose/",
+            "Facebook": "https://www.facebook.com/clyveroseauthor/",
+            "Twitter": "https://twitter.com/clyverose"
+        }
+    },
+    {
+        "name": "Lara Bury",
+        "bio": "Lara Bury is a new Children’s Book Author. Her first book, A Walk Like No Other, a fun rhyming book was published last year. This year her Fun Facts book called Aussie Animal Adventures was published.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSfF9U3bn6NsARw07TT91BUHTm4zo9IRDNQWvW-8zgPmqJkdxQ/viewform?usp=sf_link"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/20904847.Lara_Bury",
+            "Website": "http://www.larabury.com.au/",
+            "Instagram": "http://instagram.com/Laraburyauthor",
+            "Facebook": "https://www.facebook.com/laraburyauthor/",
+            "Twitter": "https://twitter.com/LjBury"
+        }
+    },
+    {
+        "name": "Chris Andrews",
+        "bio": "Chris Andrews is a writer, editor, teacher and mentor. He writes fun and fast urban fantasy and epic fantasy novels, some set in Australia, as well as non-fiction books for writers.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Non-Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/5778776.Chris_Andrews",
+            "Website": "https://www.chrisandrews.me/",
+            "Instagram": "https://www.instagram.com/chrisandrews.me/",
+            "Facebook": "https://www.facebook.com/ChrisAndrewsAU",
+            "Twitter": "https://twitter.com/ChrisAndrewsAU"
+        }
+    },
+    {
+        "name": "Cheryl Kay",
+        "bio": "Death is the Earth's soul's transition back to their Spiritual home: \"Emotionally, our loved ones never leave our side\". Life/Afterlife how you can connect using the \"Spirits Spiritfi\" messenger system! \"Depart Earth Atmosphere Transition Home\".",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.cherylkayauthor.com/",
+            "Instagram": "https://www.instagram.com/cherylkay_author/",
+            "Facebook": "https://www.facebook.com/cherylkayauthorwriter",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Chrischona Schmidt",
+        "bio": "Chrischona Schmidt has been working with Central Australian Indigenous communities as researcher and art centre manager since 2006. This book is a collaboration between contributors, the board, artists and community of Ikuntji Artists.",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "/documents/Ikuntji_Textiles_Order_Form.pdf"
+        },
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://ikuntji.com.au/artwork/ik-textilesbook/",
+            "Instagram": "https://www.instagram.com/ikuntjiartists/",
+            "Facebook": "https://www.facebook.com/IkuntjiArtists",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Keighley Bradford",
+        "bio": "Keighley Bradford is an Australian romance writer and creative industries professional based in Newcastle NSW. She writes contemporary romance stories, has been published in several anthologies, and her short fiction has won several awards.",
+        "primaryGenre": "Romance",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/u1xDbCkc8PH8q9CCA"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/keighleybradford",
+            "Website": "http://www.keighleybradford.com.au/",
+            "Instagram": "https://instagram.com/keighleybradford",
+            "Facebook": "http://www.facebook.com/keighleybradford",
+            "Twitter": "http://www.twitter.com/kbradfordbooks"
+        }
+    },
+    {
+        "name": "Lauren Ashley",
+        "bio": "A PR and marketing professional by day, Shawline Publishing author by night. When she isn’t getting swept up in writing sinfully saucy romances, like Everything I Am, she spends most of her time reading way past her bedtime.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSd2p3w9CccMYWn0W0rgkvHjH6mbw4DLHS4fkHwZEIhJ-bnTBQ/viewform?usp=sf_link"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/user/show/127299926-lauren-ashley---author",
+            "Website": "https://www.shawlinepublishing.com.au/our-titles/display/263-everything-i-am%3A-part-one%2C-broken",
+            "Instagram": "https://www.instagram.com/laurenashley.author/?hl=en",
+            "Facebook": "https://www.facebook.com/Laurenashleywritesbooks/?ref=pages_you_manage",
+            "Twitter": "https://twitter.com/LAshleywrites"
+        }
+    },
+    {
+        "name": "Book of the Wick",
+        "bio": "Simple, affordable, memorable. Book of the Wick creates one of a kind bookish scented candles. Plus more literary inspired merch like bookmarks, tumblers, keychains & totes.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://www.bookofthewick.com/",
+            "Instagram": "https://instagram.com/bookofthewick",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Hsing Yun Education Foundation",
+        "bio": "The Hsing Yun Education Foundation aspires to advance education, culture, community and social welfare. We believe that people, communities, and society in Australia can benefit from Humanistic Buddhist values that enhances a happier, wiser, ethical, and harmonious Australia",
+        "primaryGenre": "Inspiration",
+        "otherGenres": ["Wellbeing"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://hsingyunef.org.au/product-category/books/english/"
+        },
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://www.hsingyunef.org.au/",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Rack and Rune Publishing",
+        "bio": "Graham Davidson is a professional creative with over 45 years' experience working in a broad range of creative disciplines. In 2021 he founded Rack and Rune Publishing with the aim of empowering writers who wish to publish their own work.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://rackandrune.com/",
+            "Instagram": "",
+            "Facebook": "https://www.facebook.com/RackAndRune",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "IngramSpark",
+        "bio": "IngramSpark is an online self-publishing company that allows you to print, globally distribute, and manage your print and ebooks. Bring your story to life!",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "bronze",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://selfpub.is/3K3Kwqo",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Andre Jones",
+        "bio": "Melbourne based indie author of epic fantasy, urban fantasy and sci-fi. (and kids books and memoirs - soon)",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Science Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://andrejonesauthor.site",
+            "Instagram": "https://www.instagram.com/aa_jones_author",
+            "Facebook": "https://www.facebook.com/ozwyvern",
+            "Twitter": "https://twitter.com/Sir_Andre_Jones"
+        }
+    },
+    {
+        "name": "Chloe Hodge",
+        "bio": "Chloe Hodge is the bestselling author of The Cursed Blood series and the Guardians of the Grove trilogy. She writes YA and NA Fantasy, brimming with underdogs, broody book boyfriends, magic and spice.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Romance", "New Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/efRoiLpaFjvtQWBR8"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/19454991.Chloe_Hodge",
+            "Website": "http://www.chloehodge.com/",
+            "Instagram": "https://www.instagram.com/chloeschapters/",
+            "Facebook": "https://www.facebook.com/chloeschapters",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "HM Hodgson",
+        "bio": "HM Hodgson is a paranormal and fantasy romance author from Brisbane, Australia. She writes about romance (steamy scenes a must!) and magic. Magic that moves worlds and takes her to another place.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Fantasy"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/21412926.H_M_Hodgson",
+            "Website": "https://hmhodgson.com/",
+            "Instagram": "https://instagram.com/hmhodgson",
+            "Facebook": "https://facebook.com/hmhodgson",
+            "Twitter": "https://twitter.com/hmhodgson"
+        }
+    },
+    {
+        "name": "Jacqueline Hayley",
+        "bio": "Jaqueline picked up her first Mills & Boon when she was 14 and fell in love with the romance of a happily-ever-after (Sweet Valley High had nothing on the historical heroines she got hooked on). She has a Bachelor Degree in Print Journalism.",
+        "primaryGenre": "Romance",
+        "otherGenres": ["Post-Apocalyptic"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://bit.ly/3tKAumV"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/16001632.Jacqueline_Hayley",
+            "Website": "https://www.jacquelinehayley.com/",
+            "Instagram": "https://www.Instagram.com/jacquelinehayleyromance/",
+            "Facebook": "https://www.Facebook.com/jacquelinehayley/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Matt Galanos",
+        "bio": "Matt Galanos is the author of a fantasy series about the adventures of Dane Thorburn and his friends, as they battle the growing forces of evil in the city of Brindabeare and across the whole of Valentaland. He has released three books in the series.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Middle Grade", "Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/19739232.Matt_Galanos",
+            "Website": "https://www.mattgalanos.com/",
+            "Instagram": "https://www.instagram.com/mattgalanos/",
+            "Facebook": "https://www.facebook.com/mattgalanosauthor/",
+            "Twitter": "https://twitter.com/mattgalanos"
+        }
+    },
+    {
+        "name": "Sara Powter",
+        "bio": "Sara Powter write stories inspired by her family history research. With 7 convicts in their trees, there are plenty of untold stories. She weaves fact into the fiction and brings the past to life.",
+        "primaryGenre": "Fiction",
+        "otherGenres": [
+            "Romance",
+            "Historical Australian Fiction",
+            "Historical Fiction"
+        ],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/13548072.Sara_Powter",
+            "Website": "http://www.sarapowter.com.au/",
+            "Instagram": "https://www.instagram.com/sarapowter2251/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100063887262514",
+            "Twitter": "https://twitter.com/SaraPowter"
+        }
+    },
+    {
+        "name": "Judy Merrigan",
+        "bio": "Author for charities. Debut children book written \"Help us\", Dear Farmer. Dedicated to the koalas, native, farm animals and firefighters. Published by In House Publishing. Proceeds go to Koala hospitals Port Macquarie and Port Stephens",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "",
+            "Instagram": "https://www.instagram.com/JudyMerrigan/",
+            "Facebook": "https://www.facebook.com/judy.merrigan/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Toni Grant",
+        "bio": "Toni Grant is an Australian storyteller who creates immersive imagery and unforgettable characters. A love of history and adventure prompted a research trip to Italy in 2019 to garner intel for her third book, The Trouble with Serpents.",
+        "primaryGenre": "Fiction",
+        "otherGenres": ["Romance", "Suspense", "Thriller", "Crime"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/tonigrant",
+            "Website": "https://www.tonigrantauthor.com",
+            "Instagram": "https://www.instagram.com/tonigrantauthor/",
+            "Facebook": "https://www.facebook.com/tonigrantauthor",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Stephen Bennett",
+        "bio": "Stephen Bennett is a first time author. His first title is The Return: When the impossible happens. He is married with two sons. He lives in Sydney, Australia.",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://www.stephenjbennett-thereturn.com/",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Lauren Searson-Patrick",
+        "bio": "Escaping to fantasy worlds is a speciality of Lauren’s, either creating her own or reading other people’s - providing there’s a strong romance, Lauren is all in. Amber Wolf is Lauren’s debut novel with its sequel coming in 2023.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://forms.gle/rXBenNy5JrxPG7iy6"
+        },
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/book/show/60833744-amber-wolf?from_search=true",
+            "Website": "https://www.laurenspbooks.com/",
+            "Instagram": "https://www.instagram.com/laurenspbooks/?hl=en",
+            "Facebook": "https://www.facebook.com/profile.php?id=100083918354151",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "L.L. Hunter",
+        "bio": "L.L. Hunter is an Australian Indie author who has published over 50 books to date. She loves good wine, animals and true crime documentaries.",
+        "primaryGenre": "Young Adult",
+        "otherGenres": ["Fantasy", "Romance", "Mystery"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.llhunterbooks.com",
+            "Instagram": "https://www.instagram.com/llhunter/",
+            "Facebook": "https://www.facebook.com/llhunterbooks",
+            "Twitter": "https://twitter.com/LLHunterbooks"
+        }
+    },
+    {
+        "name": "Ivana L. Truglio",
+        "bio": "Ivana is an indie author who owns and runs her own publishing company. She is also the CEO and Founder of Book Fair Australia. She loves playing board games and fencing with her family where they poke each other (gently) with swords.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Young Adult"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/9809211.Ivana_L_Truglio",
+            "Website": "https://ivanaltruglio.square.site/",
+            "Instagram": "https://www.instagram.com/ivanaltruglioauthor/",
+            "Facebook": "https://www.facebook.com/IvanaL.Truglio",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "J.J. Fryer",
+        "bio": "J.J. has lived and breathed fantasy all his life, he even tried to fly on a broom once. He hopes to keep writing novels with strong willed disabled characters. J.J. was diagnosed with Mild C.P. and A.S.D. from a young age. He lives in Queensland.",
+        "primaryGenre": "Fantasy",
+        "otherGenres": ["Middle Grade"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/author/show/18202326.J_J_Fryer",
+            "Website": "",
+            "Instagram": "https://www.instagram.com/jjfryerwritesrandom/",
+            "Facebook": "https://www.facebook.com/J.J.Fryerauthor",
+            "Twitter": "https://twitter.com/jjfryer_09"
+        }
+    },
+    {
+        "name": "SuzanMarie",
+        "bio": "SuzanMarie is a 19 year old actress and producer from Sydney, Australia. While performing in films, TV series, SuzanMarie completed her Bachelor of Psychology and began writing her first book, 150 Words That Will Never Sound Angry (most of the time).",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": ["Humour"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/en/book/show/61872779-150-words-that-will-never-sound-angry",
+            "Website": "https://suzanmarie.ampbk.com/",
+            "Instagram": "https://www.instagram.com/suzanmarie__/",
+            "Facebook": "https://www.facebook.com/suzanmarie11/",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Louise Lambeth",
+        "bio": "Louise is a surf lifesaver with a passion to help families learn how to be safe around water and what to do if they need help. Her books are endorsed/reviewed by peak drowning prevention organisations.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Bilingual"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://form.jotform.com/222937790967878"
+        },
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://louiselambeth.com/",
+            "Instagram": "https://www.instagram.com/louiselambeth/",
+            "Facebook": "https://www.facebook.com/louiselambethauthor",
+            "Twitter": "https://twitter.com/louise_lambeth"
+        }
+    },
+    {
+        "name": "Lucy Branch",
+        "bio": "I am a self published author of a children's book about grandparents building a relationship with their young granddaughter while separated due to the pandemic.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "cta": {
+            "title": "Pre-order",
+            "content": "https://docs.google.com/forms/d/e/1FAIpQLSfjskeuD7UPaqDeooM7pd-LH1oTleJZKNf1coQMBTUuqUTkwA/viewform?usp=sf_link"
+        },
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.booksbylucy.com/",
+            "Instagram": "https://www.instagram.com/books.bylucy/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Awakened Fables",
+        "bio": "Awakened Fables is more than a game, it’s a Dungeons & Dragons experience. We pull all the elements together — artwork, captivating storytelling, dungeons, immersion, and most importantly, community.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "bronze",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.awakenedfables.com/",
+            "Instagram": "https://www.instagram.com/awakenedfables/",
+            "Facebook": "",
+            "Twitter": "https://twitter.com/awakenedfables"
+        }
+    },
+    {
+        "name": "niipanpann",
+        "bio": "Hi! I like to create illustrations, photography and ceramics ☺️ Feel free to come and have a look!",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "",
+            "Instagram": "http://instagram.com/niipanpann",
+            "Facebook": "",
+            "Twitter": "http://twitter.com/niipanpann"
+        }
+    },
+    {
+        "name": "Book Fair Australia Merchandise",
+        "bio": "BFA Merch will be selling fun souvenirs from the 2022 Book Fair. Stop by our table to browse a selection of merchandise and memorabilia including mugs, stickers and much more",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Matthew Lin",
+        "bio": "Matthew is a freelance graphic designer and illustrator who has over 20 years experience and took his first steps into the world of publishing at Scholastic. Matthew will be showcasing his manga fusion art style, design aesthetic and sense of humour!",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://www.matthewlin.com.au/",
+            "Instagram": "https://www.instagram.com/matthewlinart/",
+            "Facebook": "https://www.facebook.com/matthewlinart",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Novellous",
+        "bio": "Novellous is a quarterly subscription for great new Fantasy and Sci-Fi books, perfect for the reader who isn't sure what to pick up, or the gift giver who wants to shove books on people. Each pack contains at least 4 books.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "http://novellous.com.au/",
+            "Instagram": "https://www.instagram.com/novellousbox/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "LazyFox Art",
+        "bio": "Hi there! I’m LazyFox Art, and I create magical illustrations that bring stories and characters to life. Come see me for whimsical book related goodies ❤️",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "",
+            "Instagram": "https://www.instagram.com/lazyfoxart/",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Lokesh Babu",
+        "bio": "Lokesh Babu was born in South India and educated at the University of Western Sydney. As the eldest son of a traditional Indian family, his life was scripted for him, and he was expected to follow the values. He defied society expectations.",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/en/book/show/60091324-the-true-self---unlock-the-chaos-in-you",
+            "Website": "https://www.leadstartcorp.com/authors/lokesh-babu-thondavada/",
+            "Instagram": "https://www.instagram.com/lokeshbabuofficial/",
+            "Facebook": "https://www.facebook.com/lokesh.babu.official",
+            "Twitter": "https://twitter.com/lokesh_babu"
+        }
+    },
+    {
+        "name": "Monica Lizama",
+        "bio": "Monica was born in the longest country in the world (Chile). Now, she lives on the biggest island in the world (Australia). Monica is a bilingual author committed to children's literature. She likes walnuts and vanilla ice cream.",
+        "primaryGenre": "Childrens",
+        "otherGenres": ["Poetry"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "http://www.goodreads.com/author/show/5810000.monica_lizama",
+            "Website": "https://www.monicalizama.net/",
+            "Instagram": "https://www.instagram.com/blotchthedog/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100028550545531",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Andrew Geoffrey Kwabena Moss",
+        "bio": "Andrew is an Anglo-Ghanaian writer and teacher who has lived in the UK, Japan and currently Australia. His debut novella Nicked Names was published by RoseyRavelston Books in 2022. Andrew's award winning poetry has been published internationally.",
+        "primaryGenre": "Young Adult",
+        "otherGenres": ["Fiction"],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "https://www.goodreads.com/book/show/61612987-nicked-names",
+            "Website": "https://www.agkmoss.com/",
+            "Instagram": "https://www.instagram.com/moss867/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100009328644718",
+            "Twitter": "https://twitter.com/agkmoss"
+        }
+    },
+    {
+        "name": "Anthony Pearce",
+        "bio": "Anthony Pearce lives in Sydney. He enjoys studying and writing about history, politics, and religion.",
+        "primaryGenre": "Non-Fiction",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.amazon.com/Messiah-Explanation-Christianity-Anthony-Pearce-ebook/dp/B0B8FZ52GP",
+            "Instagram": "",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Jeff Driver",
+        "bio": "Jeff Driver is the author and illustrator of self published children's book about fun and positive frog. Bringing the magic of 3D modelling, his book is full of whimsical rhyme, lively illustrations and inspiring messages for children and adults of all ages. His hope is this book helps everyone on their quest for something more.",
+        "primaryGenre": "Childrens",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "author",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://www.amazon.com.au/Frogs-Space-Search-Something-More/dp/0645644005",
+            "Instagram": "http://www.instagram.com/jiffaroo",
+            "Facebook": "",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "BLACKBOOKS",
+        "bio": "BLACKBOOKS a division of Tranby Aboriginal Co-operative Limited has recently re-launched as a NSW based Aboriginal led community publisher. Our first release is \"Through Old Eyes Poems by Uncle Wes Marne\".",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "GoodReads": "",
+            "Website": "https://blackbooks.online/",
+            "Instagram": "https://www.instagram.com/blackbooks.online/",
+            "Facebook": "https://www.facebook.com/profile.php?id=100068575083167",
+            "Twitter": "https://twitter.com/BlackbooksO"
+        }
+    },
+    {
+        "name": "Pirate-Dragon",
+        "bio": "Megs has been sharing her funky earcuffs & stitched designs at conventions for over 10 years, befriending & supporting Indie Authors on the way. Visit Pirate-Dragon to check out her exclusive designs!",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://www.pirate-dragon.com/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/piratedragon/",
+            "Facebook": "https://www.facebook.com/PirateDragon",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Sultana Artistry",
+        "bio": "I'm a Henna Artist with expertise in a range of designs in natural henna. Along with henna, I offer customized henna candles & customized henna gifts.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/sultanaartistry/",
+            "Facebook": "https://www.facebook.com/isultanaartistry",
+            "Twitter": ""
+        }
+    },
+    {
+        "name": "Kaligraphic Print",
+        "bio": "Kaligraphic Print is a printing company in Sydney. Print anything from small to large: B/cards, post cards, flyers, Banners. Specialise in printing books for self-publishers. Hard covers, soft covers, special editions with foil and edge printing coming in December.",
+        "primaryGenre": "",
+        "otherGenres": [],
+        "adultContent": false,
+        "sponsorType": "none",
+        "type": "vendor",
+        "socials": {
+            "Website": "http://kaligraphicprint.com.au/",
+            "GoodReads": "",
+            "Instagram": "https://www.instagram.com/kaligraphicprint/",
+            "Facebook": "https://www.facebook.com/Kaligraphicprint/",
+            "Twitter": ""
+        }
+    }
+]

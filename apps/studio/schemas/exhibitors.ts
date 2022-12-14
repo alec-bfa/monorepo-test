@@ -1,0 +1,31 @@
+export default {
+  name: 'exhibitors',
+  type: 'document',
+  title: 'Exhibitors',
+  fields: [
+    {name: 'name', type: 'string', title: 'Name'},
+    {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      validation: (Rule: any) => Rule.min(0).integer().positive(),
+    },
+    {name: 'title', type: 'string', title: 'Job Title'},
+    {name: 'description', type: 'string', title: 'Description'},
+    {name: 'image', type: 'image', title: 'Image'},
+    {name: 'primary_genre', type: 'string', title: 'Primary Genre'},
+    {name: 'other_genres', type: 'array', title: 'Other Genre', of: [{type: 'string'}]},
+    {
+      name: 'sponsor_type',
+      type: 'string',
+      title: 'Sponsor Type',
+      list: ['none', 'bronze', 'silver', 'gold'],
+    },
+    {name: 'type', type: 'string', title: 'Type', list: ['author', 'vendor']},
+    {name: 'website', type: 'url', title: 'Website'},
+    {name: 'goodreads', type: 'url', title: 'Good Reads'},
+    {name: 'instagram', type: 'url', title: 'Instagram'},
+    {name: 'facebook', type: 'url', title: 'Facebook'},
+    {name: 'twitter', type: 'url', title: 'Twitter'},
+  ],
+}

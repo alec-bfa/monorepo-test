@@ -1,0 +1,12 @@
+{
+  "name": "sanity-types",
+  "version": "0.0.1",
+  "private": true,
+  "main": "generated-schema-types.ts",
+  "files": [
+    "generated-schema-types.ts"
+  ],
+  "dependencies": {
+    "sanity-codegen": "^0.9.8"
+  }
+}

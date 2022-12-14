@@ -1,0 +1,57 @@
+[
+    {
+        "days": ["saturday"],
+        "type": "adult",
+        "price": 25.0,
+        "fees": 2.08,
+        "vouchers": 1
+    },
+    {
+        "days": ["saturday"],
+        "type": "child",
+        "price": 5.0,
+        "fees": 1.2,
+        "vouchers": 1
+    },
+    {
+        "days": ["sunday"],
+        "type": "adult",
+        "price": 25.0,
+        "fees": 2.08,
+        "vouchers": 1
+    },
+    {
+        "days": ["sunday"],
+        "type": "child",
+        "price": 5.0,
+        "fees": 1.2,
+        "vouchers": 1
+    },
+    {
+        "days": ["saturday", "sunday"],
+        "type": "vip",
+        "price": 100.0,
+        "fees": 5.38,
+        "vouchers": 8,
+        "terms": [
+            "Skip the queue and get right into the action",
+            "20 raffle tickets for hourly book raffle",
+            "Reserved VIP seating for panels",
+            "Pre-submitted questions for panellists"
+        ]
+    },
+    {
+        "days": ["saturday", "sunday"],
+        "type": "adult",
+        "price": 45.0,
+        "fees": 2.96,
+        "vouchers": 2
+    },
+    {
+        "days": ["saturday", "sunday"],
+        "type": "child",
+        "price": 10.0,
+        "fees": 1.42,
+        "vouchers": 2
+    }
+]

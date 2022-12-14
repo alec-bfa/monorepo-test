@@ -1,0 +1,406 @@
+import { ReactElement } from "react";
+import Image from "next/image";
+import { NextSeo } from "next-seo";
+
+import Header from "@components/Header";
+import Layout from "@components/Layout";
+import SubHeader from "@components/SubHeader";
+
+import bronzeImg from "../public/img/sponsorship/bronze_medal.png";
+import silverImg from "../public/img/sponsorship/silver_medal.png";
+import goldImg from "../public/img/sponsorship/gold_medal.png";
+
+import sponsors from "../data/sponsors.json";
+
+import sponsorFaq from "../data/sponsor-faq.json";
+
+import selina_fenech from "../public/img/sponsors/selina_fenech.png";
+import ingram_spark from "../public/img/sponsors/ingram_spark.png";
+import book_addiction from "../public/img/sponsors/book_addiction.png";
+import good_reading_magazine from "../public/img/sponsors/good_reading_magazine.png";
+import awakened_fables from "../public/img/sponsors/awakened_fables.png";
+
+const images = new Map([
+    ["selina_fenech", selina_fenech],
+    ["book_addiction", book_addiction],
+    ["good_reading_magazine", good_reading_magazine],
+    ["ingram_spark", ingram_spark],
+    ["awakened_fables", awakened_fables],
+]);
+
+const SponsorUs = () => {
+    const goldSponsors = sponsors.filter((sponsor) => sponsor.type === "GOLD");
+    const silverSponsors = sponsors.filter(
+        (sponsor) => sponsor.type === "SILVER"
+    );
+    const bronzeSponsors = sponsors.filter(
+        (sponsor) => sponsor.type === "BRONZE"
+    );
+
+    const medalClass =
+        bronzeSponsors.length < 3 && silverSponsors.length < 3
+            ? "col-12 col-sm-6"
+            : "col-12";
+
+    const sponsorsSection = () => {
+        return (
+            <div className="container">
+                <div className="row">
+                    {goldSponsors.length > 0 && (
+                        <div className="col-12">
+                            <h2
+                                className="text-center mb-3"
+                                style={{ color: "#c8ae55" }}
+                            >
+                                GOLD
+                            </h2>
+                            <div
+                                className="d-flex justify-content-around align-items-center flex-wrap mb-4 p-4 "
+                                style={{
+                                    borderTop: "2px solid #c8ae55",
+                                }}
+                            >
+                                {goldSponsors.map((sponsor, index) => (
+                                    <div
+                                        key={index}
+                                        className="mb-3"
+                                        style={{
+                                            width: 250,
+                                            height: 100,
+                                            position: "relative",
+                                        }}
+                                    >
+                                        <a
+                                            href={sponsor.link}
+                                            target={"_blank"}
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                width="250"
+                                                height="100"
+                                                src={images.get(sponsor.Image)!}
+                                                alt={sponsor.Name}
+                                                sizes="100vw"
+                                                style={{
+                                                    width: "100%",
+                                                    height: "auto",
+                                                }}
+                                            />
+                                        </a>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+                    {silverSponsors.length > 0 && (
+                        <div className={medalClass}>
+                            <h2
+                                className="text-center mb-3"
+                                style={{ color: "#a3a3a3" }}
+                            >
+                                Silver
+                            </h2>
+                            <div
+                                className="d-flex justify-content-around align-items-center mb-5 p-4"
+                                style={{
+                                    borderTop: "2px solid #a3a3a3",
+                                }}
+                            >
+                                {silverSponsors.map((sponsor, index) => (
+                                    <div
+                                        key={index}
+                                        className="mb-3"
+                                        style={{
+                                            width: 200,
+                                            height: 80,
+                                            position: "relative",
+                                        }}
+                                    >
+                                        <a
+                                            href={sponsor.link}
+                                            target={"_blank"}
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                src={images.get(sponsor.Image)!}
+                                                alt={sponsor.Name}
+                                                fill
+                                                sizes="100vw"
+                                                style={{
+                                                    objectFit: "contain",
+                                                }}
+                                            />
+                                        </a>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+                    {bronzeSponsors.length > 0 && (
+                        <div className={medalClass}>
+                            <h2
+                                className="text-center mb-3"
+                                style={{ color: "#CD7F32" }}
+                            >
+                                Bronze
+                            </h2>
+                            <div
+                                className="d-flex justify-content-around align-items-center mb-5 p-4"
+                                style={{
+                                    borderTop: "2px solid #CD7F32",
+                                }}
+                            >
+                                {bronzeSponsors.map((sponsor, index) => (
+                                    <div
+                                        key={index}
+                                        className="mb-3"
+                                        style={{
+                                            width: 170,
+                                            height: 68,
+                                            position: "relative",
+                                        }}
+                                    >
+                                        <a
+                                            href={sponsor.link}
+                                            target={"_blank"}
+                                            rel="noreferrer"
+                                        >
+                                            <Image
+                                                src={images.get(sponsor.Image)!}
+                                                alt={sponsor.Name}
+                                                fill
+                                                sizes="100vw"
+                                                style={{
+                                                    objectFit: "contain",
+                                                }}
+                                            />
+                                        </a>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </div>
+        );
+    };
+
+    return (
+        <>
+            <NextSeo
+                title="Sponsor us"
+                description="We have a variety of sponsorship options to meet all business budgets to get your business in front of avid book readers, authors and publishers."
+                canonical="https://bookfairaustralia.com/sponsor-us"
+                openGraph={{
+                    title: "Sponsor us",
+                    description:
+                        "We have a variety of sponsorship options to meet all business budgets to get your business in front of avid book readers, authors and publishers.",
+                }}
+            />
+            <div className="container">
+                <main>
+                    {sponsors.length > 1 ? (
+                        <>
+                            <Header title="Our Sponsors" />
+                            {sponsorsSection()}
+
+                            <SubHeader title="Sponsor us" />
+                        </>
+                    ) : (
+                        <Header title="Sponsor us" />
+                    )}
+                    <p className="fs-5 text-muted text-center">
+                        We have a variety of sponsorship options to meet all
+                        business budgets to get your business in front of avid
+                        book readers, authors and publishers.
+                    </p>
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 mb-5 text-center justify-content-center gy-4">
+                        <div className="col">
+                            <div className="card h-100 mb-4 rounded-3 shadow sponsor-card bronze">
+                                <div className="card-header py-3">
+                                    <h4 className="my-0 fw-normal">Bronze</h4>
+                                </div>
+                                <div className="card-body d-flex flex-column">
+                                    <div className="w-100 text-center">
+                                        <div className="w-50 m-auto">
+                                            <Image
+                                                src={bronzeImg}
+                                                alt=""
+                                                placeholder="blur"
+                                                style={{
+                                                    maxWidth: "100%",
+                                                    height: "auto",
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <h1 className="card-title pricing-card-title">
+                                        {Math.max(
+                                            12 - bronzeSponsors.length,
+                                            1
+                                        )}
+                                        <small className="text-muted fw-light">
+                                            &nbsp;remaining
+                                        </small>
+                                    </h1>
+                                    <ul className="flex-fill mt-3 mb-4 px-5 text-start">
+                                        <li>2 complimentary tickets</li>
+                                        <li>2x2 metre area</li>
+                                        <li>1x social welcome announcement</li>
+                                        <li>
+                                            3x small secondary logo placements
+                                        </li>
+                                    </ul>
+                                    <a
+                                        href="mailto:sponsorship@bookfairaustralia.com"
+                                        className="w-100 btn btn-lg btn-outline-primary"
+                                    >
+                                        Contact us
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card h-100 mb-4 rounded-3 shadow sponsor-card silver">
+                                <div className="card-header py-3">
+                                    <h4 className="my-0 fw-normal">Silver</h4>
+                                </div>
+                                <div className="card-body d-flex flex-column">
+                                    <div className="w-100 text-center">
+                                        <div className="w-50 m-auto">
+                                            <Image
+                                                src={silverImg}
+                                                alt=""
+                                                placeholder="blur"
+                                                style={{
+                                                    maxWidth: "100%",
+                                                    height: "auto",
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <h1 className="card-title pricing-card-title">
+                                        {Math.max(6 - silverSponsors.length, 1)}
+                                        <small className="text-muted fw-light">
+                                            &nbsp;remaining
+                                        </small>
+                                    </h1>
+                                    <ul className="flex-fill mt-3 mb-4 px-5 text-start">
+                                        <li>4 complimentary tickets</li>
+                                        <li>3x3 metre booth</li>
+                                        <li>1x social welcome announcement</li>
+                                        <li>
+                                            4x large secondary logo placements
+                                        </li>
+                                        <li>Author announcements</li>
+                                    </ul>
+                                    <a
+                                        href="mailto:sponsorship@bookfairaustralia.com"
+                                        className="w-100 btn btn-lg btn-outline-primary"
+                                    >
+                                        Contact us
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card h-100 mb-4 rounded-3 shadow sponsor-card gold">
+                                <div className="card-header py-3">
+                                    <h4 className="my-0 fw-normal">Gold</h4>
+                                </div>
+                                <div className="card-body d-flex flex-column">
+                                    <div className="w-100 text-center">
+                                        <div className="w-50 m-auto">
+                                            <Image
+                                                src={goldImg}
+                                                alt=""
+                                                placeholder="blur"
+                                                style={{
+                                                    maxWidth: "100%",
+                                                    height: "auto",
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <h1 className="card-title pricing-card-title">
+                                        {Math.max(3 - goldSponsors.length, 1)}
+                                        <small className="text-muted fw-light">
+                                            &nbsp;remaining
+                                        </small>
+                                    </h1>
+                                    <ul className="flex-fill mt-3 mb-4 px-5 text-start">
+                                        <li>8 complimentary tickets</li>
+                                        <li>6x6 metre booth</li>
+                                        <li>1x social welcome announcement</li>
+                                        <li>Several primary logo placements</li>
+                                        <li>Author announcements</li>
+                                        <li>Regular social accouncements</li>
+                                        <li>Opening statement mention</li>
+                                        <li>
+                                            Sponsor specific workshops and
+                                            panels
+                                        </li>
+                                    </ul>
+                                    <a
+                                        href="mailto:sponsorship@bookfairaustralia.com"
+                                        className="w-100 btn btn-lg btn-outline-primary"
+                                    >
+                                        Contact us
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="container"
+                        style={{
+                            maxWidth: 900,
+                            marginBottom: 48,
+                            display: "none",
+                        }}
+                    >
+                        <SubHeader title="FAQs" />
+                        <div className="accordion" id="sponsor-faqs">
+                            {sponsorFaq.map((faqItem, index) => (
+                                <div key={index} className="accordion-item">
+                                    <h3
+                                        className="accordion-header"
+                                        id={`heading${index}`}
+                                    >
+                                        <button
+                                            className="accordion-button collapsed"
+                                            style={{ fontSize: "1.25rem" }}
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target={`#collapse${index}`}
+                                            aria-expanded="false"
+                                            aria-controls={`collapse${index}`}
+                                        >
+                                            {faqItem.heading}
+                                        </button>
+                                    </h3>
+                                    <div
+                                        id={`collapse${index}`}
+                                        className="accordion-collapse collapse"
+                                        aria-labelledby={`heading${index}`}
+                                        data-bs-parent="#sponsor-faq"
+                                    >
+                                        <div className="accordion-body">
+                                            {faqItem.content}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </>
+    );
+};
+
+export default SponsorUs;
+
+SponsorUs.getLayout = function getLayout(page: ReactElement) {
+    return <Layout>{page}</Layout>;
+};

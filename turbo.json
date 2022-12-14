@@ -5,9 +5,17 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "dist/**"]
     },
-    "test": {
+    "web#build": {
+      "dependsOn": [
+        "^build",
+        "$NEXT_PUBLIC_SANITY_DATASET",
+        "$NEXT_PUBLIC_SANITY_PROJECT_ID"
+      ],
+      "outputs": [".next/**"]
+    },
+    "studio#build": {
       "dependsOn": ["^build"],
-      "outputs": []
+      "outputs": ["public/**"]
     },
     "lint": {
       "outputs": []

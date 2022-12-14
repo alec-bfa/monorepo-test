@@ -1,56 +1,104 @@
----
-name: Monorepo with Turborepo
-slug: monorepo-turborepo
-description: Learn to implement a monorepo with a single Next.js site that has installed two local packages.
-framework: Next.js
-useCase: Documentation
-css: Tailwind
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/monorepo&project-name=monorepo&repository-name=monorepo&root-directory=apps/app&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%20--filter%3Dapp...&ignore-command=npx%20turbo-ignore
-demoUrl: https://solutions-monorepo.vercel.sh
-relatedTemplates:
-  - monorepo-nx
-  - microfrontends
----
+![Feriekolonien logo](/apps/web/public/logo.png)
 
-# Monorepo
+This is the (new!) main repo for [Feriekolonien.no](https://feriekolonien.no)
+and it's content.
 
-This is a monorepo example with a single Next.js site ([./apps/app](./apps/app)) that has installed two local packages:
+## What's inside?
 
-- [./packages/ui](./packages/ui): Exports UI components that use TypeScript and Tailwind CSS and is compiled by SWC.
-- [./packages/utils](./packages/utils): Exports utility functions that use TypeScript.
+This turborepo uses [PNPM](https://pnpm.io/installation) as a package manager. It includes the following packages/apps:
 
-The monorepo is using [Turborepo](https://turborepo.org/) and [pnpm workspaces](https://pnpm.io/workspaces) to link packages together.
+### Apps and Packages
 
-For more examples on monorepos check out the [official Turborepo examples](https://github.com/vercel/turborepo/tree/main/examples).
+- `apps/web`: A [Next.js](https://nextjs.org) app that's deployed to [feriekolonien.no](https://feriekolonien.no) with Vercel.
+- `apps/studio`: A [Sanity studio](https://sanity.io) that's deployed to [studio.feriekolonien.no](https://studio.feriekolonien.no) with Vercel.
+- `ui`: a stub React component library not currently used in any of the apps.
+- `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-## Demo
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/) 🔐
 
-https://solutions-monorepo.vercel.sh
+### Utilities
 
-## How to Use
+This turborepo has some additional tools already setup for you:
 
-You can choose from one of the following two methods to use this repository:
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
 
-### One-Click Deploy
+## Setup
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
+This repository is used in the `npx create-turbo` command, and selected when choosing which package manager you wish to use with your monorepo (PNPM).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/monorepo&project-name=monorepo&repository-name=monorepo&root-directory=apps/app&install-command=pnpm%20install&build-command=cd%20..%2F..%20%26%26%20pnpm%20build%20--filter%3Dapp...&ignore-command=npx%20turbo-ignore)
+### Build
 
-### Clone and Deploy
+To build all apps and packages, run the following command:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/monorepo monorepo
+```
+gh repo clone feriekolonien/site
+cd site
+pnpm run build
 ```
 
-Next, run `app` in development mode:
+### Develop
 
-```bash
-pnpm dev
+To develop all apps and packages, run the following command:
+
+```
+cd site
+pnpm run dev
 ```
 
-The app should be up and running at http://localhost:3000.
+To develop on a single app, just `cd app/` into that application and run
+commands as expected (`pnpm dev`, `pnpm add some-new-pkg` etc).
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=monorepo-example) ([Documentation](https://nextjs.org/docs/deployment)).
+**Code style**
+
+Your environment should be automatically set up if you're using VScode with the
+Prettier and ESlint plugins installed.
+
+These tools can also be ran with `pnpm test` in each app. This will run:
+
+- `prettier --check`: To find code formatting issues.
+- `eslint`: To find unused variables and other ESLint issues.
+- `tsc --no-emit` To test TypeScript errors and module import issues.
+
+**Commit style**
+
+It's recommended to prefix commits with the app you are currently working on.
+E.g.
+
+`git commit -m "studio: upgrade Sanity dependencies"`
+
+This will make it easier to read the commit history.
+
+### Remote Caching
+
+⚠️ **Remote caching is currently NOT set up for Feriekolonien**
+
+Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+
+By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+
+```
+cd site
+npx turbo login
+```
+
+This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+
+Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
+
+```
+npx turbo link
+```
+
+## Useful Turborepo Links
+
+Learn more about the power of Turborepo:
+
+- [Pipelines](https://turborepo.org/docs/features/pipelines)
+- [Caching](https://turborepo.org/docs/features/caching)
+- [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching)
+- [Scoped Tasks](https://turborepo.org/docs/features/scopes)
+- [Configuration Options](https://turborepo.org/docs/reference/configuration)
+- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)

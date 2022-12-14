@@ -1,0 +1,13 @@
+html,
+body {
+    font-family: "Raleway";
+    color: #404041;
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}

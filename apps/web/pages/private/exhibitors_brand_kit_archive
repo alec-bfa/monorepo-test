@@ -1,0 +1,207 @@
+import { ReactElement, useEffect } from "react";
+import { NextSeo } from "next-seo";
+import { GetServerSideProps } from "next";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
+
+import Layout from "@components/Layout";
+import Header from "@components/Header";
+
+import { useMetadata } from "context/metadata";
+import { basicAuthCheck } from "lib/basicAuth";
+
+const ExhibitorInformation = () => {
+    const { setMetadata } = useMetadata();
+    useEffect(() => {
+        setMetadata({
+            title: "Have you heard about Book Fair Australia?",
+            content: "I just discovered Book Fair Australia, check it out",
+            useHome: true,
+        });
+    }, [setMetadata]);
+
+    return (
+        <>
+            <NextSeo
+                title="Exhibitors Brand Kit"
+                nofollow={true}
+                noindex={true}
+            />
+            <div className="container">
+                <Header
+                    title="Exhibitors Brand Kit"
+                    titleIcon={<FontAwesomeIcon icon={faLock} />}
+                    subtitle="Please follow the following guidelines when representing Book Fair Australia in your communications and content."
+                />
+                <main
+                    className="container"
+                    style={{ maxWidth: 900, marginBottom: 48 }}
+                >
+                    <div className="mb-5">
+                        <h2>Logo</h2>
+                        <section>
+                            <h3 className="h5">Horizontal long</h3>
+                            <p>
+                                To be used as main logo on website, social media
+                                banners, cover pictures etc – letterhead in the
+                                centre
+                            </p>
+                            <ul>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_horizontal_long.png"
+                                    >
+                                        Horizontal Logo (transparent)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_horizontal_long_web.jpg"
+                                    >
+                                        Horizontal Logo
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 className="h5">Horizontal short</h3>
+                            <p>
+                                To be used where the horizontal long doesn’t
+                                work
+                            </p>
+                            <ul>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_horizontal_short.png"
+                                    >
+                                        Horizontal short Logo (transparent)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_horizontal_short_web.jpg"
+                                    >
+                                        Horizontal short Logo
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 className="h5">Stacked</h3>
+                            <p>
+                                To be used whenever a square option is better
+                                than horizontal long or short
+                            </p>
+                            <ul>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_stacked.png"
+                                    >
+                                        Stacked Logo (transparent)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/Book_Fair_Australia_-_logo_-_stacked_web.jpg"
+                                    >
+                                        Stacked Logo
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <h2>Descriptions</h2>
+                        <section>
+                            <h3 className="h5">Short Description</h3>
+                            <p>
+                                Book Fair Australia is a new festival
+                                celebrating books of all genres. Join us for
+                                workshops, panels, readings and more.
+                            </p>
+                        </section>
+                        <section>
+                            <h3 className="h5">Medium Description</h3>
+                            <p>
+                                Book Fair Australia is a new book festival. It
+                                celebrates books of all genres as well as
+                                providing a platform for authors of both
+                                traditional and independent publishers to
+                                connect with readers.
+                            </p>
+                        </section>
+                        <section>
+                            <h3 className="h5">Long Description</h3>
+                            <p>
+                                Book Fair Australia presents a literary festival
+                                that celebrates stories of all genres. We
+                                welcome traditionally and independently
+                                published authors alike to share their diverse
+                                range through dedicated stalls, discussion
+                                panels, workshops and more. A thrilling weekend
+                                fit for any book lover, come by with friends and
+                                family to get your books signed and explore a
+                                world of storytelling right in Sydney.
+                            </p>
+                            <p>
+                                The team at Book Fair Australia commit ourselves
+                                to bringing the fun back into a timeless hobby
+                                through engaging with local authors, focusing on
+                                our love for books, and connecting readers and
+                                writers.
+                            </p>
+                        </section>
+                        <h2>Attending exhibitor profile pictures</h2>
+                        <section>
+                            <p>
+                                Attending profile pictures can be used across
+                                social media platforms to indicate attendance to
+                                our event.
+                            </p>
+                            <ul>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/BFA_attending_badge_-_AUTHOR_-_Nov_2022.jpg"
+                                    >
+                                        Author
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        target="_blank"
+                                        href="/img/BFA_attending_badge_-_VENDOR_-_Nov_2022.jpg"
+                                    >
+                                        Vendor
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </main>
+            </div>
+        </>
+    );
+};
+
+export default ExhibitorInformation;
+
+ExhibitorInformation.getLayout = function getLayout(page: ReactElement) {
+    return <Layout>{page}</Layout>;
+};
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+    const { req, res } = context;
+
+    await basicAuthCheck(req, res);
+
+    return {
+        props: {},
+    };
+};

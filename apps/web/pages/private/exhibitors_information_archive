@@ -1,0 +1,117 @@
+import { ReactElement, useEffect } from "react";
+
+import Layout from "@components/Layout";
+import Header from "@components/Header";
+
+import { useMetadata } from "context/metadata";
+import { NextSeo } from "next-seo";
+import { GetServerSideProps } from "next";
+import { basicAuthCheck } from "lib/basicAuth";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
+import exhibitorsInfo from "data/exhibitors-information.json";
+
+const ExhibitorInformation = () => {
+    const { setMetadata } = useMetadata();
+    useEffect(() => {
+        setMetadata({
+            title: "Have you heard about Book Fair Australia?",
+            content: "I just discovered Book Fair Australia, check it out",
+            useHome: true,
+        });
+    }, [setMetadata]);
+
+    const latestUpdate = exhibitorsInfo
+        .map((info) => new Date(info.updated))
+        .sort((a, b) => b.valueOf() - a.valueOf())[0];
+    return (
+        <>
+            <NextSeo
+                title="Exhibitors Information"
+                nofollow={true}
+                noindex={true}
+            />
+            <div className="container">
+                <Header
+                    title="Exhibitors Information"
+                    titleIcon={<FontAwesomeIcon icon={faLock} />}
+                    subtitle="We'll post important information for exhibitors here - please check back frequently."
+                />
+                <main
+                    className="container"
+                    style={{ maxWidth: 900, marginBottom: 48 }}
+                >
+                    <div className="mb-5">
+                        <p className="text-end">
+                            Last Updated:{" "}
+                            <strong>{latestUpdate.toLocaleDateString()}</strong>
+                        </p>
+                        <div className="accordion" id="sponsor-faqs">
+                            {exhibitorsInfo.map((faqItem, index) => (
+                                <div key={index} className="accordion-item">
+                                    <h3
+                                        className="accordion-header"
+                                        id={`heading${index}`}
+                                    >
+                                        <button
+                                            className="accordion-button collapsed"
+                                            style={{ fontSize: "1.25rem" }}
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target={`#collapse${index}`}
+                                            aria-expanded="false"
+                                            aria-controls={`collapse${index}`}
+                                        >
+                                            {faqItem.heading}
+                                        </button>
+                                    </h3>
+                                    <div
+                                        id={`collapse${index}`}
+                                        className="accordion-collapse collapse"
+                                        aria-labelledby={`heading${index}`}
+                                        data-bs-parent="#sponsor-faq"
+                                    >
+                                        <div className="accordion-body">
+                                            <p className="small text-muted">
+                                                Last updated:{" "}
+                                                {new Date(
+                                                    faqItem.updated
+                                                ).toLocaleDateString()}
+                                            </p>
+                                            {faqItem.content.map(
+                                                (content, index) => (
+                                                    <p
+                                                        key={index}
+                                                        dangerouslySetInnerHTML={{
+                                                            __html: content,
+                                                        }}
+                                                    ></p>
+                                                )
+                                            )}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </>
+    );
+};
+
+export default ExhibitorInformation;
+
+ExhibitorInformation.getLayout = function getLayout(page: ReactElement) {
+    return <Layout>{page}</Layout>;
+};
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+    const { req, res } = context;
+
+    await basicAuthCheck(req, res);
+
+    return {
+        props: {},
+    };
+};

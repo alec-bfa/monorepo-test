@@ -1,0 +1,33 @@
+[{
+        "value": "childrens",
+        "label": "Children's"
+    },
+    {
+        "value": "fantasy",
+        "label": "Fantasy"
+    },
+    {
+        "value": "fiction",
+        "label": "Fiction"
+    },
+    {
+        "value": "graphicnovel",
+        "label": "Graphic novel"
+    },
+    {
+        "value": "non-fiction",
+        "label": "Non-fiction"
+    },
+    {
+        "value": "romance",
+        "label": "Romance"
+    },
+    {
+        "value": "sciencefiction",
+        "label": "Science fiction"
+    },
+    {
+        "value": "youngadult",
+        "label": "Young adult"
+    }
+]
